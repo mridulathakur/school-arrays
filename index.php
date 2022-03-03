@@ -1203,9 +1203,9 @@
                 ),
 
                 "Class-incharge" => array(
-                    "Name" => "Dinesh Thakur(10th)",
-                    "Name" => "Nirmla Thakur(11th)",
-                    "Name" => "Jagdish Thakur(12th)"
+                    "Dinesh Thakur(10th)",
+                     "Nirmla Thakur(11th)",
+                    "Jagdish Thakur(12th)"
                 ),
                 "Time" => array(
 
@@ -2631,7 +2631,7 @@
         ),
     );
     echo "<pre>";
-    print_r($arrays["School"]["Subjects"]["Subject"]);
+    print_r($arrays);
 
     echo "</pre>";
     ?>
