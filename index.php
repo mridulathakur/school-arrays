@@ -272,7 +272,7 @@
                             "Subjects" => "Mathematics",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Mathematics)",
-                                "Master Degree" => "Msc"
+                                "Master's Degree" => "Msc"
                             ),
 
                         ),
@@ -281,7 +281,7 @@
                             "Subjects" => "English",
                             "Qualification" => array(
                                 "Degree" => "BCA",
-                                "Master Degree" => "MCA"
+                                "Master's Degree" => "MCA"
                             ),
                         ),
                         array(
@@ -289,7 +289,7 @@
                             "Subjects" => "Computer Science",
                             "Qualification" => array(
                                 "Degree" => "BCA(IT)",
-                                "Master Degree" => "MCA(IT)"
+                                "Master's Degree" => "MCA(IT)"
                             ),
 
                         ),
@@ -298,7 +298,7 @@
                             "Subjects" => "History",
                             "Qualification" => array(
                                 "Degree" => "BA(History)",
-                                "Master Degree" => "MA"
+                                "Master's Degree" => "MA"
                             ),
 
                         ),
@@ -307,7 +307,7 @@
                             "Subjects" => "Science",
                             "Qualification" => array(
                                 "Degree" => "Bsc",
-                                "Master Degree" => "Msc"
+                                "Master's Degree" => "Msc"
                             ),
                         ),
                         array(
@@ -315,7 +315,7 @@
                             "Subjects" => "Hindi",
                             "Qualification" => array(
                                 "Degree" => "BA(Hindi)",
-                                "Master Degree" => "MA"
+                                "Master's Degree" => "MA"
 
 
                             ),
@@ -325,7 +325,7 @@
                             "Subjects" => "Mechanics",
                             "Qualification" => array(
                                 "Degree" => "B.tech",
-                                "Master Degree" => "M.tech"
+                                "Master's Degree" => "M.tech"
 
                             ),
                         ),
@@ -338,7 +338,9 @@
                         "Students" => "39",
                         "Table" => "30",
                         "Door" => "2",
-                        "Window" => "2"
+                        "Window" => "2",
+                        "Chair"=>"1",
+                        "Lecture Stand"=>"1"
 
                     ),
 
@@ -634,7 +636,7 @@
                             "Subjects" => "Mathematics",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Mathematics)",
-                                "Master" => "Msc(Mathematics)"
+                                "Master's Degree" => "Msc(Mathematics)"
                             ),
                         ),
                         array(
@@ -642,7 +644,7 @@
                             "Subjects" => "English",
                             "Qualification" => array(
                                 "Degree" => "BCA",
-                                "Master" => "MCA"
+                                "Master's Degree" => "MCA"
 
                             ),
                         ),
@@ -651,7 +653,7 @@
                             "Subjects" => "Computer Science",
                             "Qualification" => array(
                                 "Degree" => "BCA(IT)",
-                                "Master" => "MCA"
+                                "Master's Degree" => "MCA"
                             ),
 
                         ),
@@ -660,7 +662,7 @@
                             "Subjects" => "Physics",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Physics)",
-                                "Master" => "Msc"
+                                "Master's Degree" => "Msc"
                             ),
                         ),
                         array(
@@ -668,7 +670,7 @@
                             "Subjects" => "Chemistry",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
-                                "Master" => "Msc"
+                                "Master's Degree" => "Msc"
 
                             ),
 
@@ -708,8 +710,8 @@
                         "Table" => "34",
                         "Door" => "2",
                         "Window" => "3",
-                        "Chair" => "1",
-
+                        "Chair"=>"1",
+                        "Lecture Stand"=>"1"
 
 
 
@@ -986,7 +988,7 @@
                             "Subjects" => "Mathematics",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Mathematics)",
-                                "Master" => "Msc(Mathematics)"
+                                "Master's Degree" => "Msc(Mathematics)"
                             ),
                         ),
                         array(
@@ -994,7 +996,7 @@
                             "Subjects" => "English",
                             "Qualification" => array(
                                 "Degree" => "BCA",
-                                "Master" => "MCA"
+                                "Master's Degree" => "MCA"
 
                             ),
                         ),
@@ -1003,7 +1005,7 @@
                             "Subjects" => "Computer Science",
                             "Qualification" => array(
                                 "Degree" => "BCA(IT)",
-                                "Master" => "MCA"
+                                "Master's Degree" => "MCA"
                             ),
 
                         ),
@@ -1012,7 +1014,7 @@
                             "Subjects" => "Physics",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Physics)",
-                                "Master" => "Msc"
+                                "Master's Degree" => "Msc"
                             ),
                         ),
                         array(
@@ -1020,7 +1022,7 @@
                             "Subjects" => "Chemistry",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
-                                "Master" => "Msc"
+                                "Master's Degree" => "Msc"
 
                             ),
 
@@ -1059,7 +1061,12 @@
                         "Students" => "39",
                         "Table" => "40",
                         "Door" => "2",
-                        "Window" => "4"
+                        "Window" => "4",
+                        "Chair"=>"1",
+                        "Lecture Stand"=>"1"
+
+
+                        
 
 
                     ),
@@ -1117,7 +1124,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Mathematics)",
-                            "Master Degree" => "Msc"
+                            "Master's Degree" => "Msc"
 
                         ),
                     ),
@@ -1127,7 +1134,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(Hindi)",
-                            "Master Degree" => "MA"
+                            "Master's Degree" => "MA"
 
 
                         ),
@@ -1138,7 +1145,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "Bsc",
-                            "Master Degree" => "Msc"
+                            "Master's Degree" => "Msc"
                         ),
                     ),
 
@@ -1148,7 +1155,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA",
-                            "Master Degree" => "MCA"
+                            "Master's Degree" => "MCA"
                         ),
                     ),
                     array(
@@ -1157,7 +1164,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(History)",
-                            "Master Degree" => "MA"
+                            "Master's Degree" => "MA"
                         ),
 
                     ),
@@ -1167,7 +1174,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA(IT)",
-                            "Master Degree" => "MCA(IT)"
+                            "Master's Degree" => "MCA(IT)"
                         ),
                     ),
                     array(
@@ -1176,7 +1183,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "B.tech",
-                            "Master Degree" => "M.tech"
+                            "Master's Degree" => "M.tech"
 
                         ),
                     ),
@@ -1187,7 +1194,7 @@
                         "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Physics)",
-                            "Master" => "Msc"
+                            "Master's" => "Msc"
                         ),
                     ),
                     "Teacher" => array(
@@ -1326,7 +1333,7 @@
                             array("RoomNo." => "11", "Title" => "Science Lab."),
                         ),
                         "Subjects" => array(
-
+    
                             array(
                                 "Subject" => "Science",
                                 "Teacher" => "Anshika Thakur",
@@ -1362,11 +1369,11 @@
                                 "Teacher" => "Rajat Sen",
                                 "Time" => "2.15pm-3pm"
                             ),
-
-
+    
+    
                         ),
                         "Students" => array(
-
+    
                             array(
                                 "Name" => "Aadi Thakur",
                                 "Age" => "14",
@@ -1558,7 +1565,7 @@
                                 "Remarks" => "pass"
                             ),
                         ),
-
+    
                         "Lunch-time" => array(
                             "Time" => "12.45pm-1.30pm"
                         ),
@@ -1576,9 +1583,9 @@
                                 "Day" => "Friday",
                                 "Time" => "12pm-12.45pm",
                                 "Teacher" => "Munish Patiyal"
-
+    
                             ),
-
+    
                         ),
                         "Teachers" => array(
                             array(
@@ -1586,16 +1593,16 @@
                                 "Subjects" => "Mathematics",
                                 "Qualification" => array(
                                     "Degree" => "Bsc(Mathematics)",
-                                    "Master Degree" => "Msc"
+                                    "Master's Degree" => "Msc"
                                 ),
-
+    
                             ),
                             array(
                                 "Name" => "Divya Sharma",
                                 "Subjects" => "English",
                                 "Qualification" => array(
                                     "Degree" => "BCA",
-                                    "Master Degree" => "MCA"
+                                    "Master's Degree" => "MCA"
                                 ),
                             ),
                             array(
@@ -1603,25 +1610,25 @@
                                 "Subjects" => "Computer Science",
                                 "Qualification" => array(
                                     "Degree" => "BCA(IT)",
-                                    "Master Degree" => "MCA(IT)"
+                                    "Master's Degree" => "MCA(IT)"
                                 ),
-
+    
                             ),
                             array(
                                 "Name" => "Ritika Sharma",
                                 "Subjects" => "History",
                                 "Qualification" => array(
                                     "Degree" => "BA(History)",
-                                    "Master Degree" => "MA"
+                                    "Master's Degree" => "MA"
                                 ),
-
+    
                             ),
                             array(
                                 "Name" => "anshika Thakur",
                                 "Subjects" => "Science",
                                 "Qualification" => array(
                                     "Degree" => "Bsc",
-                                    "Master Degree" => "Msc"
+                                    "Master's Degree" => "Msc"
                                 ),
                             ),
                             array(
@@ -1629,9 +1636,9 @@
                                 "Subjects" => "Hindi",
                                 "Qualification" => array(
                                     "Degree" => "BA(Hindi)",
-                                    "Master Degree" => "MA"
-
-
+                                    "Master's Degree" => "MA"
+    
+    
                                 ),
                             ),
                             array(
@@ -1639,30 +1646,32 @@
                                 "Subjects" => "Mechanics",
                                 "Qualification" => array(
                                     "Degree" => "B.tech",
-                                    "Master Degree" => "M.tech"
-
+                                    "Master's Degree" => "M.tech"
+    
                                 ),
                             ),
                         ),
                         "class Moniter" => array(
                             "Namee" => "Rajat Thakur",
                         ),
-
+    
                         "ClassRoom" => array(
                             "Students" => "39",
                             "Table" => "30",
                             "Door" => "2",
-                            "Window" => "2"
-
+                            "Window" => "2",
+                            "Chair"=>"1",
+                            "Lecture Stand"=>"1"
+    
                         ),
-
+    
                         "Time" => array(
-
+    
                             "School-Time" => "9am-3pm",
                             "Lunch-Time" => "12.45pm-1.30pm",
                             "Classes-Time" => array(
-
-
+    
+    
                                 array(
                                     "subject" => "Science",
                                     "Teacher" => "Anshika Thakur",
@@ -1678,7 +1687,7 @@
                                     "Teacher" => "Reena Sharma",
                                     "Time" => "11am-12pm"
                                 ),
-
+    
                                 array(
                                     "subject" => "Mathematics",
                                     "Teacher" => "Dinesh Thakur",
@@ -1699,26 +1708,26 @@
                                     "Teacher" => "Rajat Sen",
                                     "Time" => "3pm-4pm"
                                 ),
-
-
-
-
+    
+    
+    
+    
                             ),
                         ),
-
+    
                     ),
-
-
+    
+    
                     "11th" => array(
                         "Rooms" => array(
                             array("RoomNo." => "1", "capicity" => "40"),
                             array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
                             array("RoomNo." => "11", "Title" => "Physics Lab."),
                             array("RoomNo." => "10", "Title" => "Chemistry Lab."),
-
+    
                         ),
                         "Subjects" => array(
-
+    
                             array(
                                 "Subject" => "Physics",
                                 "Teacher" => "Jagdish Thakur",
@@ -1734,8 +1743,8 @@
                                 "Teacher" => "Pinkee Sharma",
                                 "Time" => "11am-12pm"
                             ),
-
-
+    
+    
                             array(
                                 "Subject" => "Computer Science",
                                 "Teacher" => "Maloo Sharma",
@@ -1746,12 +1755,12 @@
                                 "Teacher" => "Hemant Thakur",
                                 "Time" => "2pm-3pm"
                             ),
-
-
-
+    
+    
+    
                         ),
                         "Students" => array(
-
+    
                             array(
                                 "Name" => "Aadi Thakur",
                                 "Age" => "15",
@@ -1769,7 +1778,7 @@
                                 "Percentage" => "87%",
                                 "Remarks" => "Pass",
                                 "Division" => "1st division"
-
+    
                             ),
                             array(
                                 "Name" => "Robin Thakur",
@@ -1933,7 +1942,7 @@
                                 "Remarks" => "Pass",
                                 "Division" => "1st division"
                             ),
-
+    
                         ),
                         "Lunch-time" => array(
                             "Time" => "1pm-2pm",
@@ -1942,13 +1951,13 @@
                             "Name" => "Nirmla Thakur",
                         ),
                         "Teachers" => array(
-
+    
                             array(
                                 "Name" => "Hemant Thakur",
                                 "Subjects" => "Mathematics",
                                 "Qualification" => array(
                                     "Degree" => "Bsc(Mathematics)",
-                                    "Master" => "Msc(Mathematics)"
+                                    "Master's Degree" => "Msc(Mathematics)"
                                 ),
                             ),
                             array(
@@ -1956,8 +1965,8 @@
                                 "Subjects" => "English",
                                 "Qualification" => array(
                                     "Degree" => "BCA",
-                                    "Master" => "MCA"
-
+                                    "Master's Degree" => "MCA"
+    
                                 ),
                             ),
                             array(
@@ -1965,16 +1974,16 @@
                                 "Subjects" => "Computer Science",
                                 "Qualification" => array(
                                     "Degree" => "BCA(IT)",
-                                    "Master" => "MCA"
+                                    "Master's Degree" => "MCA"
                                 ),
-
+    
                             ),
                             array(
                                 "Name" => "Jagdish Thakur",
                                 "Subjects" => "Physics",
                                 "Qualification" => array(
                                     "Degree" => "Bsc(Physics)",
-                                    "Master" => "Msc"
+                                    "Master's Degree" => "Msc"
                                 ),
                             ),
                             array(
@@ -1982,12 +1991,12 @@
                                 "Subjects" => "Chemistry",
                                 "Qualification" => array(
                                     "Degree" => "Msc(Chemistry)",
-                                    "Master" => "Msc"
-
+                                    "Master's Degree" => "Msc"
+    
                                 ),
-
+    
                             ),
-
+    
                         ),
                         "Laboratory" => array(
                             array(
@@ -1995,42 +2004,45 @@
                                 "Day" => "Monday",
                                 "Time" => "9am-10am",
                                 "Teacher" => "Jagdish Thakur"
-
+    
                             ),
                             array(
                                 "Subject" => "Computer Science",
                                 "Day" => "Friday",
                                 "Time" => "1pm-2pm",
                                 "Teacher" => "Maloo Sharma"
-
+    
                             ),
                             array(
                                 "Subject" => "Chemistry",
                                 "Day" => "Wednesday",
                                 "Time" => "10am-11am",
                                 "Teacher" => "Nirmla Thakur"
-
+    
                             ),
-
+    
                         ),
                         "class Moniter" => array(
                             "Name" => "Ritik Thakur",
                         ),
-
+    
                         "ClassRoom" => array(
                             "Students" => "39",
                             "Table" => "34",
                             "Door" => "2",
-                            "Window" => "3"
-
-
+                            "Window" => "3",
+                            "Chair"=>"1",
+                            "Lecture Stand"=>"1"
+    
+    
+    
                         ),
                         "Time" => array(
                             "School-Time" => "9am-3pm",
                             "Lunch-Time" => "1pm-2pm",
                             "Classes-Time" => array(
-
-
+    
+    
                                 array(
                                     "Subject" => "Physics",
                                     "Teacher" => "Jagdish Thakur",
@@ -2056,19 +2068,19 @@
                                     "Teacher" => "Maloo Sharma",
                                     "Time" => "2pm-3pm",
                                 ),
-
-
+    
+    
                             ),
                         ),
                     ),
-
+    
                     "Class12" => array(
                         "Rooms" => array(
                             array("RoomNo." => "2", "capicity" => "40"),
                             array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
                             array("RoomNo." => "8", "Title" => "Physics Lab."),
                             array("RoomNo." => "9", "Title" => "Chemistry Lab."),
-
+    
                         ),
                         "Subjects" => array(
                             array(
@@ -2086,13 +2098,13 @@
                                 "Teacher" => "Nirmla Thakur",
                                 "Time" => "11am-12pm",
                             ),
-
+    
                             array(
                                 "Subject" => "Mathematics",
                                 "Teacher" => "Hemant Thakur",
                                 "Time" => "12pm-1pm"
                             ),
-
+    
                             array(
                                 "Subject" => "Computer Science",
                                 "Teacher" => "Maloo Sharma",
@@ -2100,7 +2112,7 @@
                             ),
                         ),
                         "Students" => array(
-
+    
                             array(
                                 "Name" => "Aadi Thakur",
                                 "Age" => "16",
@@ -2118,7 +2130,7 @@
                                 "Percentage" => "87%",
                                 "Remarks" => "Pass",
                                 "Division" => "1st division"
-
+    
                             ),
                             array(
                                 "Name" => "Robin Thakur",
@@ -2282,7 +2294,7 @@
                                 "Remarks" => "Pass",
                                 "Division" => "1st division"
                             ),
-
+    
                         ),
                         "Lunch-time" => array(
                             "Time" => "1pm-2pm",
@@ -2291,13 +2303,13 @@
                             "Name" => "Jagdish Thakur",
                         ),
                         "Teachers" => array(
-
+    
                             array(
                                 "Name" => "Hemant Thakur",
                                 "Subjects" => "Mathematics",
                                 "Qualification" => array(
                                     "Degree" => "Bsc(Mathematics)",
-                                    "Master" => "Msc(Mathematics)"
+                                    "Master's Degree" => "Msc(Mathematics)"
                                 ),
                             ),
                             array(
@@ -2305,8 +2317,8 @@
                                 "Subjects" => "English",
                                 "Qualification" => array(
                                     "Degree" => "BCA",
-                                    "Master" => "MCA"
-
+                                    "Master's Degree" => "MCA"
+    
                                 ),
                             ),
                             array(
@@ -2314,16 +2326,16 @@
                                 "Subjects" => "Computer Science",
                                 "Qualification" => array(
                                     "Degree" => "BCA(IT)",
-                                    "Master" => "MCA"
+                                    "Master's Degree" => "MCA"
                                 ),
-
+    
                             ),
                             array(
                                 "Name" => "Jagdish Thakur",
                                 "Subjects" => "Physics",
                                 "Qualification" => array(
                                     "Degree" => "Bsc(Physics)",
-                                    "Master" => "Msc"
+                                    "Master's Degree" => "Msc"
                                 ),
                             ),
                             array(
@@ -2331,12 +2343,12 @@
                                 "Subjects" => "Chemistry",
                                 "Qualification" => array(
                                     "Degree" => "Msc(Chemistry)",
-                                    "Master" => "Msc"
-
+                                    "Master's Degree" => "Msc"
+    
                                 ),
-
+    
                             ),
-
+    
                         ),
                         "Laboratory" => array(
                             array(
@@ -2344,43 +2356,48 @@
                                 "Day" => "Monday",
                                 "Time" => "10am-11am",
                                 "Teacher" => "Jagdish Thakur"
-
+    
                             ),
                             array(
                                 "Subject" => "Computer Science",
                                 "Day" => "Friday",
                                 "Time" => "2pm-3pm",
                                 "Teacher" => "Maloo Sharma"
-
+    
                             ),
                             array(
                                 "Subject" => "Chemistry",
                                 "Day" => "Wednesday",
                                 "Time" => "11am-12pm",
                                 "Teacher" => "Nirmla Thakur"
-
+    
                             ),
-
+    
                         ),
                         "class Moniter" => array(
                             "Name" => "Sania Thakur",
                         ),
-
+    
                         "ClassRoom" => array(
                             "Students" => "39",
                             "Table" => "40",
                             "Door" => "2",
-                            "Window" => "4"
-
-
+                            "Window" => "4",
+                            "Chair"=>"1",
+                            "Lecture Stand"=>"1"
+    
+    
+                            
+    
+    
                         ),
                         "Time" => array(
                             "School-Time" => array("9am-3pm"),
                             "Lunch-Time" => array("1pm-2pm"),
                             "Classes-Time" => array(
-
-
-
+    
+    
+    
                                 array(
                                     "Subject" => "Physics",
                                     "Teacher" => "Jagdish Thakur",
@@ -2406,16 +2423,16 @@
                                     "Teacher" => "Maloo Sharma",
                                     "Time" => "2pm-3pm",
                                 ),
-
+    
                             ),
-
+    
                         ),
                     ),
-
-
-
-
-
+    
+    
+    
+    
+    
                     //end classes
                 ),
 
@@ -2475,7 +2492,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Mathematics)",
-                            "Master Degree" => "Msc"
+                            "Master's Degree" => "Msc"
 
                         ),
                     ),
@@ -2485,7 +2502,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(Hindi)",
-                            "Master Degree" => "MA"
+                            "Master's Degree" => "MA"
 
 
                         ),
@@ -2496,7 +2513,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "Bsc",
-                            "Master Degree" => "Msc"
+                            "Master's Degree" => "Msc"
                         ),
                     ),
 
@@ -2506,7 +2523,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA",
-                            "Master Degree" => "MCA"
+                            "Master's Degree" => "MCA"
                         ),
                     ),
                     array(
@@ -2515,7 +2532,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(History)",
-                            "Master Degree" => "MA"
+                            "Master's Degree" => "MA"
                         ),
 
                     ),
@@ -2525,7 +2542,7 @@
                         "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA(IT)",
-                            "Master Degree" => "MCA(IT)"
+                            "Master's Degree" => "MCA(IT)"
                         ),
                     ),
                     array(
@@ -2534,7 +2551,7 @@
                         "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "B.tech",
-                            "Master Degree" => "M.tech"
+                            "Master's Degree" => "M.tech"
 
                         ),
                     ),
@@ -2545,7 +2562,7 @@
                         "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Physics)",
-                            "Master" => "Msc"
+                            "Master's Degree" => "Msc"
                         ),
                     ),
                     "Teacher" => array(
@@ -2554,7 +2571,7 @@
                         "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Msc(Chemistry)",
-                            "Master" => "Msc"
+                            "Master's Degree" => "Msc"
 
                         ),
                     ),
