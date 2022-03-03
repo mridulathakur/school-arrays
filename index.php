@@ -707,7 +707,10 @@
                         "Students" => "39",
                         "Table" => "34",
                         "Door" => "2",
-                        "Window" => "3"
+                        "Window" => "3",
+                        "Chair" => "1",
+
+
 
 
                     ),
@@ -1109,16 +1112,19 @@
                 "Teacher" => array(
 
                     array(
-                        "Teacher" => "Hemant Thakur", "Dinesh Thakur",
+                        "Name" => array("Hemant Thakur", "Dinesh Thakur"),
                         "Subject" => "Mathematics",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Mathematics)",
                             "Master Degree" => "Msc"
+
                         ),
                     ),
                     array(
                         "Teacher" => "Reena Sharma",
                         "Subject" => "Hindi",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(Hindi)",
                             "Master Degree" => "MA"
@@ -1129,6 +1135,7 @@
                     array(
                         "Teacher" =>  "Anshika Thakut",
                         "Subject" => "Science",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "Bsc",
                             "Master Degree" => "Msc"
@@ -1136,8 +1143,9 @@
                     ),
 
                     array(
-                        "Teacher" => "Divya Sharma", "Pinkee Sharma",
+                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
                         "Subject" => "English",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA",
                             "Master Degree" => "MCA"
@@ -1146,6 +1154,7 @@
                     array(
                         "Teacher" => "Ritika Sharma",
                         "Subject" => "History",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(History)",
                             "Master Degree" => "MA"
@@ -1153,8 +1162,9 @@
 
                     ),
                     array(
-                        "Teacher" => "Munish Patiyal", "Maloo Sharma",
+                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
                         "Subject" => "Computer Science",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA(IT)",
                             "Master Degree" => "MCA(IT)"
@@ -1162,7 +1172,8 @@
                     ),
                     array(
                         "Teacher" => "Rajat Sen",
-                        "Subject" => array("Mechanics"),
+                        "Subject" => "Mechanics",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "B.tech",
                             "Master Degree" => "M.tech"
@@ -1173,6 +1184,7 @@
                     "Teacher" => array(
                         "Teacher" => "Nirmla Thakur",
                         "Subject" => "Chemistry",
+                        "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Physics)",
                             "Master" => "Msc"
@@ -1181,6 +1193,7 @@
                     "Teacher" => array(
                         "Teacher" => "Jagdish Thakur",
                         "Subject" => "Physics",
+                        "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Msc(Chemistry)",
                             "Master" => "Msc"
@@ -2413,13 +2426,10 @@
 
                     array(
                         "Subject" => "Mathematics",
-                        "Teacher" => "Hemant Thakur", "Dinesh Thakur"
+                        "Teacher" => array("Hemant Thakur", "Dinesh Thakur"),
                     ),
 
-                    array(
-                        "Subject" => "Mathematics",
-                        "Teacher" => "Hemant Thakur", "Dinesh Thakur"
-                    ),
+
                     array(
                         "Subject" => "Hindi",
                         "Teacher" =>  "Reena Sharma"
@@ -2431,7 +2441,7 @@
 
                     array(
                         "Subject" => "English",
-                        "Teacher" => "Divya Sharma", "Pinkee Sharma"
+                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
                     ),
                     array(
                         "Subject" => "History",
@@ -2440,7 +2450,7 @@
                     ),
                     array(
                         "Subject" => "Computer Science",
-                        "Teacher" => "Munish Patiyal", "Maloo Sharma"
+                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
                     ),
                     array(
                         "Subject" => "Mechanics",
@@ -2460,16 +2470,19 @@
                 "Teacher" => array(
 
                     array(
-                        "Teacher" => "Hemant Thakur", "Dinesh Thakur",
+                        "Name" => array("Hemant Thakur", "Dinesh Thakur"),
                         "Subject" => "Mathematics",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Mathematics)",
                             "Master Degree" => "Msc"
+
                         ),
                     ),
                     array(
                         "Teacher" => "Reena Sharma",
                         "Subject" => "Hindi",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(Hindi)",
                             "Master Degree" => "MA"
@@ -2480,6 +2493,7 @@
                     array(
                         "Teacher" =>  "Anshika Thakut",
                         "Subject" => "Science",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "Bsc",
                             "Master Degree" => "Msc"
@@ -2487,8 +2501,9 @@
                     ),
 
                     array(
-                        "Teacher" => "Divya Sharma", "Pinkee Sharma",
+                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
                         "Subject" => "English",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA",
                             "Master Degree" => "MCA"
@@ -2497,6 +2512,7 @@
                     array(
                         "Teacher" => "Ritika Sharma",
                         "Subject" => "History",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "BA(History)",
                             "Master Degree" => "MA"
@@ -2504,8 +2520,9 @@
 
                     ),
                     array(
-                        "Teacher" => "Munish Patiyal", "Maloo Sharma",
+                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
                         "Subject" => "Computer Science",
+                        "Class" => array("10th", "11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "BCA(IT)",
                             "Master Degree" => "MCA(IT)"
@@ -2513,7 +2530,8 @@
                     ),
                     array(
                         "Teacher" => "Rajat Sen",
-                        "Subject" => array("Mechanics"),
+                        "Subject" => "Mechanics",
+                        "Class" => "10th",
                         "Qualification" => array(
                             "Degree" => "B.tech",
                             "Master Degree" => "M.tech"
@@ -2524,6 +2542,7 @@
                     "Teacher" => array(
                         "Teacher" => "Nirmla Thakur",
                         "Subject" => "Chemistry",
+                        "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Bsc(Physics)",
                             "Master" => "Msc"
@@ -2532,6 +2551,7 @@
                     "Teacher" => array(
                         "Teacher" => "Jagdish Thakur",
                         "Subject" => "Physics",
+                        "Class" => array("11th", "12th"),
                         "Qualification" => array(
                             "Degree" => "Msc(Chemistry)",
                             "Master" => "Msc"
@@ -2611,6 +2631,7 @@
         ),
     );
     echo "<pre>";
-    print_r($arrays["School"]["Classes"]["10th"]["Students"]["0"]);
+    print_r($arrays["School"]["Subjects"]["Subject"]);
+
     echo "</pre>";
     ?>
