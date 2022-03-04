@@ -7,44 +7,56 @@
 
                 "10th" => array(
                     "Rooms" => array(
-                        array("RoomNo." => "9", "capicity" => "50"),
-                        array("RoomNo." => "10", "Title" => "Computer-Science Lab."),
-                        array("RoomNo." => "11", "Title" => "Science Lab."),
+                        array(
+                            "RoomNo." => "9",  "Title" => "All Subject", "Students" => "39", "Table" => "30",
+                            "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "10", "Title" => "Computer-Science Lab.", "Students" => "39",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "11", "Title" => "Science Lab.", "Students" => "39",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
                     ),
                     "Subjects" => array(
 
                         array(
-                            "Subject" => "Science",
+                            "Name" => "Science",
                             "Teacher" => "Anshika Thakur",
                             "Time" => "9am-9.45am"
                         ),
                         array(
-                            "Subject" => "History",
+                            "Name" => "History",
                             "Teacher" => "Ritika Sharma",
                             "Time" => "9.45am-10.30am"
                         ),
                         array(
-                            "Subject" => "Hindi",
+                            "Name" => "Hindi",
                             "Teacher" => "Reena Sharma",
                             "Time" => "10.30am-11.15am"
                         ),
                         array(
-                            "Subject" => "Mathematics",
-                            "Teacher" => "Dinesh Thakur",
+                            "Name" => "Mathematics",
+                            "Teacher" => "Hemant Thakur",
                             "Time" => "11.15am-12pm"
                         ),
                         array(
-                            "Subject" => "Computer Science",
-                            "Teacher" => "Munish Patiyal",
+                            "Name" => "Computer Science",
+                            "Teacher" => "Maloo Sharma",
                             "Time" => "12pm-12.45pm"
                         ),
                         array(
-                            "Subject" => "English",
-                            "Teacher" => "Divya Sharma",
+                            "Lunch-Time" => "12.45pm-1.30pm"
+                        ),
+                        array(
+                            "Name" => "English",
+                            "Teacher" => "Pinkee Sharma",
                             "Time" => "1.30pm-2.15pm"
                         ),
                         array(
-                            "Subject" => "Mechanics",
+                            "Name" => "Mechanics",
                             "Teacher" => "Rajat Sen",
                             "Time" => "2.15pm-3pm"
                         ),
@@ -59,7 +71,7 @@
                             "Roll No." => "1",
                             "E-mail" => "aadithakur@gmail.com",
                             "Date Of Birth" => "12-4-2000",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "85",
                                 "English" => "82",
                                 "Science" => "80",
@@ -68,9 +80,11 @@
                                 "Mathematics" => "79",
                                 "Mechanics" => "81"
                             ),
-                            "Total-marks" => "591/700",
+                            "Marks-Obtained" => "591",
+                            "Total-Marks" => "700",
                             "Percentage" => "84%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Robin Thakur",
@@ -78,7 +92,7 @@
                             "Roll No." => "2",
                             "E-mail" => "Robinthakur@gmail.com",
                             "Date Of Birth" => "10-1-2000",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "80",
                                 "English" => "75",
                                 "Science" => "77",
@@ -87,9 +101,11 @@
                                 "Mathematics" => "75",
                                 "Mechanics" => "77"
                             ),
-                            "Total-marks" => "551/700",
+                            "Marks-Obtained" => "551",
+                            "Total-Marks" => "700",
                             "Percentage" => "79%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rahul Thakur",
@@ -97,7 +113,7 @@
                             "Roll No." => "3",
                             "E-mail" => "Rahulthakur@gmail.com",
                             "Date Of Birth" => "9-7-2000",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "88",
                                 "English" => "70",
                                 "Science" => "80",
@@ -106,9 +122,11 @@
                                 "Mathematics" => "73",
                                 "Mechanics" => "67"
                             ),
-                            "Total-marks" => "556/700",
+                            "Marks-Obtained" => "556",
+                            "Total-Marks" => "700",
                             "Percentage" => "79%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Nisha Thakur",
@@ -116,7 +134,7 @@
                             "Roll No." => "4",
                             "E-mail" => "nishathakur@gmail.com",
                             "Date Of Birth" => "3-3-2001",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "85",
                                 "English" => "82",
                                 "Science" => "80",
@@ -125,9 +143,11 @@
                                 "Mathematics" => "79",
                                 "Mechanics" => "79"
                             ),
-                            "Total-marks" => "591/700",
+                            "Marks-Obtained" => "591",
+                            "Total-Marks" => "700",
                             "Percentage" => "84%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rohit Thakur",
@@ -135,7 +155,7 @@
                             "Roll No." => "5",
                             "E-mail" => "rohitthakur@gmail.com",
                             "Date Of Birth" => "17-3-2001",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "60",
                                 "English" => "65",
                                 "Science" => "59",
@@ -144,9 +164,11 @@
                                 "Mathematics" => "55",
                                 "Mechanics" => "69"
                             ),
-                            "Total-marks" => "453/700",
+                            "Marks-Obtained" => "453",
+                            "Total-Marks" => "700",
                             "Percentage" => "65%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rajat Thakur",
@@ -154,7 +176,7 @@
                             "Roll No." => "6",
                             "E-mail" => "rajattthakur@gmail.com",
                             "Date Of Birth" => "27-3-2001",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "80",
                                 "English" => "70",
                                 "Science" => "65",
@@ -163,9 +185,11 @@
                                 "Mathematics" => "73",
                                 "Mechanics" => "77"
                             ),
-                            "Total-marks" => "549/700",
+                            "Marks-Obtained" => "549",
+                            "Total-Marks" => "700",
                             "Percentage" => "78%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ratan Thakur",
@@ -173,7 +197,7 @@
                             "Roll No." => "7",
                             "E-mail" => "ratanthakur@gmail.com",
                             "Date Of Birth" => "27-3-2001",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "85",
                                 "English" => "70",
                                 "Science" => "69",
@@ -182,9 +206,11 @@
                                 "Mathematics" => "69",
                                 "Mechanics" => "66"
                             ),
-                            "Total-marks" => "521/700",
+                            "Marks-Obtained" => "521",
+                            "Total-Marks" => "700",
                             "Percentage" => "74%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Isha Sharma",
@@ -192,7 +218,7 @@
                             "Roll No." => "8",
                             "E-mail" => "Ishasharma@gmail.com",
                             "Date Of Birth" => "27-11-2000",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "80",
                                 "English" => "70",
                                 "Science" => "65",
@@ -201,9 +227,11 @@
                                 "Mathematics" => "79",
                                 "Mechanics" => "81"
                             ),
-                            "Total-marks" => "559/700",
+                            "Marks-Obtained" => "559",
+                            "Total-Marks" => "700",
                             "Percentage" => "80%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ritik Thakur",
@@ -211,7 +239,7 @@
                             "Roll No." => "9",
                             "E-mail" => "Ritikthakur@gmail.com",
                             "Date Of Birth" => "27-12-2001",
-                            "marks" => array(
+                            "Marks" => array(
                                 "hindi" => "65",
                                 "English" => "62",
                                 "Science" => "60",
@@ -220,9 +248,11 @@
                                 "Mathematics" => "69",
                                 "Mechanics" => "71"
                             ),
-                            "Total-marks" => "481/700",
+                            "Marks-Obtained" => "481",
+                            "Total-Marks" => "700",
                             "Percentage" => "69%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Sania Thakur",
@@ -239,12 +269,13 @@
                                 "Mathematics" => "77",
                                 "Mechanics" => "81"
                             ),
-                            "Total-marks" => "589/700",
+                            "Marks-Obtained" => "589",
+                            "Total-Marks" => "700",
                             "Percentage" => "84%",
-                            "Remarks" => "pass"
+                            "Remarks" => "pass",
+                            "Division" => "First"
                         ),
                     ),
-
                     "Lunch-time" => array(
                         "Time" => "12.45pm-1.30pm"
                     ),
@@ -255,47 +286,33 @@
                         array(
                             "Subject" => "Science",
                             "Day" => "Monday",
-                            "Time" => "9am-9.45am"
+                            "Time" => "9am-9.45am",
+                            "Teacher" => "Anshika Thakur"
+
                         ),
                         array(
                             "Subject" => "Computer Science",
                             "Day" => "Friday",
                             "Time" => "12pm-12.45pm",
-                            "Teacher" => "Munish Patiyal"
+                            "Teacher" => "Maloo Sharma"
 
                         ),
 
                     ),
                     "Teachers" => array(
                         array(
-                            "Name" => "Dinesh Thakur",
-                            "Subjects" => "Mathematics",
+                            "Name" => "anshika Thakur",
+                            "Subjects" => "Science",
+                            "Time" => "9am-9.45am",
                             "Qualification" => array(
-                                "Degree" => "Bsc(Mathematics)",
+                                "Degree" => "Bsc",
                                 "Master's Degree" => "Msc"
                             ),
-
-                        ),
-                        array(
-                            "Name" => "Divya Sharma",
-                            "Subjects" => "English",
-                            "Qualification" => array(
-                                "Degree" => "BCA",
-                                "Master's Degree" => "MCA"
-                            ),
-                        ),
-                        array(
-                            "Name" => "Munish Patiyal",
-                            "Subjects" => "Computer Science",
-                            "Qualification" => array(
-                                "Degree" => "BCA(IT)",
-                                "Master's Degree" => "MCA(IT)"
-                            ),
-
                         ),
                         array(
                             "Name" => "Ritika Sharma",
                             "Subjects" => "History",
+                            "Time" => "9.45am-10.30am",
                             "Qualification" => array(
                                 "Degree" => "BA(History)",
                                 "Master's Degree" => "MA"
@@ -303,16 +320,9 @@
 
                         ),
                         array(
-                            "Name" => "anshika Thakur",
-                            "Subjects" => "Science",
-                            "Qualification" => array(
-                                "Degree" => "Bsc",
-                                "Master's Degree" => "Msc"
-                            ),
-                        ),
-                        array(
                             "Name" => "Reena Sharma",
                             "Subjects" => "Hindi",
+                            "Time" => "10.30am-11.15am",
                             "Qualification" => array(
                                 "Degree" => "BA(Hindi)",
                                 "Master's Degree" => "MA"
@@ -321,8 +331,39 @@
                             ),
                         ),
                         array(
+                            "Name" => "Hemant Thakur",
+                            "Subjects" => "Mathematics",
+                            "Time" => "11.15am-12pm",
+                            "Qualification" => array(
+                                "Degree" => "Bsc(Mathematics)",
+                                "Master's Degree" => "Msc"
+                            ),
+
+                        ),
+                        array(
+                            "Name" => "Maloo Sharma",
+                            "Subjects" => "Computer Science",
+                            "Time" => "12pm-12.45pm",
+                            "Qualification" => array(
+                                "Degree" => "BCA(IT)",
+                                "Master's Degree" => "MCA(IT)"
+                            ),
+
+                        ),
+                        array(
+                            "Name" => "Pinkee Sharma",
+                            "Subjects" => "English",
+                            "Time" => "1.30pm-2.15pm",
+                            "Qualification" => array(
+                                "Degree" => "BCA",
+                                "Master's Degree" => "MCA"
+                            ),
+                        ),
+
+                        array(
                             "Name" => "Rajat Sen",
                             "Subjects" => "Mechanics",
+                            "Time" => "2.15pm-3pm",
                             "Qualification" => array(
                                 "Degree" => "B.tech",
                                 "Master's Degree" => "M.tech"
@@ -331,106 +372,116 @@
                         ),
                     ),
                     "class Moniter" => array(
-                        "Namee" => "Rajat Thakur",
+                        "Name" => "Rajat Thakur",
                     ),
-
-                    "ClassRoom" => array(
-                        "Students" => "39",
-                        "Table" => "30",
-                        "Door" => "2",
-                        "Window" => "2",
-                        "Chair"=>"1",
-                        "Lecture Stand"=>"1"
-
-                    ),
-
                     "Time" => array(
 
-                        "School-Time" => "9am-3pm",
-                        "Lunch-Time" => "12.45pm-1.30pm",
-                        "Classes-Time" => array(
-
-
-                            array(
-                                "subject" => "Science",
-                                "Teacher" => "Anshika Thakur",
-                                "Time" => "9am-10am"
-                            ),
-                            array(
-                                "subject" => "History",
-                                "Teacher" => "Ritika Sharma",
-                                "Time" => "10am-11am"
-                            ),
-                            array(
-                                "subject" => "Hindi",
-                                "Teacher" => "Reena Sharma",
-                                "Time" => "11am-12pm"
-                            ),
-
-                            array(
-                                "subject" => "Mathematics",
-                                "Teacher" => "Dinesh Thakur",
-                                "Time" => "12pm-1pm"
-                            ),
-                            array(
-                                "subject" => "Computer Science",
-                                "Teacher" => "Munish Patiyal",
-                                "Time" => "1pm-2pm"
-                            ),
-                            array(
-                                "subject" => "English",
-                                "Teacher" => "Divya Sharma",
-                                "Time" => "2pm-3pm"
-                            ),
-                            array(
-                                "subject" => "Mechanics",
-                                "Teacher" => "Rajat Sen",
-                                "Time" => "3pm-4pm"
-                            ),
-
-
-
-
+                        array(
+                            "Time" => "9am-9.45m",
+                            "subject" => "Science",
+                            "Teacher" => "Anshika Thakur",
+                            
                         ),
+                        array(
+                            "Time" => "9.45am-10.30am",
+                            "subject" => "History",
+                            "Teacher" => "Ritika Sharma",
+                          
+                        ),
+                        array(
+                            "Time" => "10.30am-11.15am",
+                            "subject" => "Hindi",
+                            "Teacher" => "Reena Sharma",
+                            
+                        ),
+
+                        array(
+                            "Time" => "11.15am-12pm",
+                            "subject" => "Mathematics",
+                            "Teacher" => "Dinesh Thakur",
+                            
+                        ),
+                        array(
+                            "Time" => "12pm-12.45pm",
+                            "subject" => "Computer Science",
+                            "Teacher" => "Munish Patiyal",
+                           
+                        ),
+                        array(
+                            "Time" => "12.45pm-1.30pm",
+                            "subject" => "English",
+                            "Teacher" => "Divya Sharma",
+                            
+                        ),
+                        array("Lunch-Time" => "1.30pm-2.15pm"),
+                        array(
+                            "Time" => "2.15pm-3pm",
+                            "subject" => "Mechanics",
+                            "Teacher" => "Rajat Sen",
+                          
+                        ),
+
+
+
+
+
                     ),
 
                 ),
 
 
                 "11th" => array(
+
                     "Rooms" => array(
-                        array("RoomNo." => "1", "capicity" => "40"),
-                        array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
-                        array("RoomNo." => "11", "Title" => "Physics Lab."),
-                        array("RoomNo." => "10", "Title" => "Chemistry Lab."),
+                        array(
+                            "RoomNo." => "1",  "Title" => "All Subject", "Students" => "55", "Table" => "30",
+                            "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "10", "Title" => "Computer-Science Lab.", "Students" => "55",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "3", "Title" => "Physics Lab.", "Students" => "55",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "4", "Title" => "Chemistry Lab.", "Students" => "55",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
 
                     ),
                     "Subjects" => array(
 
                         array(
-                            "Subject" => "Physics",
+                            "Name" => "Physics",
                             "Teacher" => "Jagdish Thakur",
                             "Time" => "9am-10am"
                         ),
                         array(
-                            "Subject" => "Chemistry",
-                            "Teacher" => "Nirmla Thakur",
-                            "Time" => "10am-11am"
+                            "Name" => "Computer Science",
+                            "Teacher" => "Maloo Sharma",
+                            "Time" => "10am-11am",
                         ),
+
                         array(
-                            "Subject" => "English",
+                            "Name" => "English",
                             "Teacher" => "Pinkee Sharma",
                             "Time" => "11am-12pm"
                         ),
+                        array(
+                            "Name" => "Chemistry",
+                            "Teacher" => "Nirmla Thakur",
+                            "Time" => "12pm-1pm"
+                        ),
+
 
 
                         array(
-                            "Subject" => "Computer Science",
-                            "Teacher" => "Maloo Sharma",
-                            "Time" => "12pm-1pm",
+                            "Lunch-Time" => "1pm-2pm"
                         ),
                         array(
-                            "Subject" => "Mathematics",
+                            "Name" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
                             "Time" => "2pm-3pm"
                         ),
@@ -453,10 +504,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "435/500",
+                            "Marks-Obtained" => "435",
+                            "Total-Marks" => "500",
                             "Percentage" => "87%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
 
                         ),
                         array(
@@ -472,10 +524,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "429/500",
+                            "Marks-Obtained" => "429",
+                            "Total-Marks" => "500",
                             "Percentage" => "86%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rahul Thakur",
@@ -490,10 +543,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "335/500",
+                            "Marks-Obtained" => "335",
+                            "Total-Marks" => "500",
                             "Percentage" => "67%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Nisha Thakur",
@@ -508,10 +562,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "313/500",
+                            "Marks-Obtained" => "313",
+                            "Total-Marks" => "500",
                             "Percentage" => "63%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rohit Thakur",
@@ -526,10 +581,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rajat Thakur",
@@ -544,10 +600,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "85"
                             ),
-                            "Total-marks" => "425/500",
+                            "Marks-Obtained" => "425",
+                            "Total-Marks" => "500",
                             "Percentage" => "85%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ratan Thakur",
@@ -562,10 +619,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "435/500",
+                            "Marks-Obtained" => "435",
+                            "Total-Marks" => "500",
                             "Percentage" => "87%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Isha Sharma",
@@ -580,10 +638,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ritik Thakur",
@@ -598,10 +657,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "313/500",
+                            "Marks-Obtained" => "313",
+                            "Total-Marks" => "500",
                             "Percentage" => "63%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Sania Thakur",
@@ -616,10 +676,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
 
                     ),
@@ -630,36 +691,10 @@
                         "Name" => "Nirmla Thakur",
                     ),
                     "Teachers" => array(
-
-                        array(
-                            "Name" => "Hemant Thakur",
-                            "Subjects" => "Mathematics",
-                            "Qualification" => array(
-                                "Degree" => "Bsc(Mathematics)",
-                                "Master's Degree" => "Msc(Mathematics)"
-                            ),
-                        ),
-                        array(
-                            "Name" => "Pinkee Sharma",
-                            "Subjects" => "English",
-                            "Qualification" => array(
-                                "Degree" => "BCA",
-                                "Master's Degree" => "MCA"
-
-                            ),
-                        ),
-                        array(
-                            "Name" => "Maloo Sharma",
-                            "Subjects" => "Computer Science",
-                            "Qualification" => array(
-                                "Degree" => "BCA(IT)",
-                                "Master's Degree" => "MCA"
-                            ),
-
-                        ),
                         array(
                             "Name" => "Jagdish Thakur",
                             "Subjects" => "Physics",
+                            "Time" => "9am-10am",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Physics)",
                                 "Master's Degree" => "Msc"
@@ -668,6 +703,7 @@
                         array(
                             "Name" => "Nirmla Thakur",
                             "Subjects" => "Chemistry",
+                            "Time" => "10am-11am",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
                                 "Master's Degree" => "Msc"
@@ -675,6 +711,39 @@
                             ),
 
                         ),
+                        array(
+                            "Name" => "Pinkee Sharma",
+                            "Subjects" => "English",
+                            "Time" => "11am-12pm",
+                            "Qualification" => array(
+                                "Degree" => "BCA",
+                                "Master's Degree" => "MCA"
+
+                            ),
+                        ),
+
+
+                        array(
+                            "Name" => "Hemant Thakur",
+                            "Subjects" => "Mathematics",
+                            "Time" => "12pm-1pm",
+                            "Qualification" => array(
+                                "Degree" => "Bsc(Mathematics)",
+                                "Master's Degree" => "Msc(Mathematics)"
+                            ),
+                        ),
+
+                        array(
+                            "Name" => "Maloo Sharma",
+                            "Subjects" => "Computer Science",
+                            "Time" => "2pm-3pm",
+                            "Qualification" => array(
+                                "Degree" => "BCA(IT)",
+                                "Master's Degree" => "MCA"
+                            ),
+
+                        ),
+
 
                     ),
                     "Laboratory" => array(
@@ -704,88 +773,93 @@
                     "class Moniter" => array(
                         "Name" => "Ritik Thakur",
                     ),
-
-                    "ClassRoom" => array(
-                        "Students" => "39",
-                        "Table" => "34",
-                        "Door" => "2",
-                        "Window" => "3",
-                        "Chair"=>"1",
-                        "Lecture Stand"=>"1"
-
-
-
-                    ),
                     "Time" => array(
-                        "School-Time" => "9am-3pm",
-                        "Lunch-Time" => "1pm-2pm",
-                        "Classes-Time" => array(
 
 
-                            array(
-                                "Subject" => "Physics",
-                                "Teacher" => "Jagdish Thakur",
-                                "Time" => "9am-10am"
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Teacher" => "Nirmla Thakur",
-                                "Time" => "10am-11am"
-                            ),
-                            array(
-                                "Subject" => "English",
-                                "Teacher" => "Pinkee Sharma",
-                                "Time" => "11am-12pm"
-                            ),
-                            array(
-                                "Subject" => "Mathematics",
-                                "Teacher" => "Hemant Thakur",
-                                "Time" => "12pm-1pm",
-                            ),
-                            array(
-                                "Subject" => "Computer science",
-                                "Teacher" => "Maloo Sharma",
-                                "Time" => "2pm-3pm",
-                            ),
-
-
+                        array(
+                            "Time" => "9am-10am",
+                            "Subject" => "Physics",
+                            "Teacher" => "Jagdish Thakur",
+                            
                         ),
+                        array(
+                            "Time" => "10am-11am",
+                            "Subject" => "Chemistry",
+                            "Teacher" => "Nirmla Thakur",
+                           
+                        ),
+                        array(
+                            "Time" => "11am-12pm",
+                            "Subject" => "English",
+                            "Teacher" => "Pinkee Sharma",
+                            
+                        ),
+                        array(
+                            "Time" => "12pm-1pm",
+                            "Subject" => "Mathematics",
+                            "Teacher" => "Hemant Thakur",
+                           
+                        ),
+                        array("Lunch-Time" => "1pm-2pm"),
+                        array(
+                            "Time" => "2pm-3pm",
+                            "Subject" => "Computer science",
+                            "Teacher" => "Maloo Sharma",
+                          
+                        ),
+
+
+
                     ),
                 ),
 
                 "Class12" => array(
                     "Rooms" => array(
-                        array("RoomNo." => "2", "capicity" => "40"),
-                        array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
-                        array("RoomNo." => "8", "Title" => "Physics Lab."),
-                        array("RoomNo." => "9", "Title" => "Chemistry Lab."),
-
+                        array(
+                            "RoomNo." => "5",  "Title" => "All Subject", "Students" => "50", "Table" => "30",
+                            "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "10", "Title" => "Computer-Science Lab.", "Students" => "50",
+                            "Table" => "5", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "3", "Title" => "Physics Lab.", "Students" => "50",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
+                        array(
+                            "RoomNo." => "4", "Title" => "Chemistry Lab.", "Students" => "50",
+                            "Table" => "30", "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
+                        ),
                     ),
                     "Subjects" => array(
                         array(
-                            "Subject" => "English",
+                            "Name" => "English",
                             "Teacher" => "Pinkee Sharma",
                             "Time" => "9am-10pm"
                         ),
                         array(
-                            "Subject" => "Physics",
+                            "Name" => "Physics",
                             "Teacher" => "Jagdish Thakur",
                             "Time" => "10am-11am"
                         ),
                         array(
-                            "Subject" => "Chemistry",
+                            "Name" => "Chemistry",
                             "Teacher" => "Nirmla Thakur",
                             "Time" => "11am-12pm",
                         ),
 
                         array(
-                            "Subject" => "Mathematics",
+                            "Name" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
                             "Time" => "12pm-1pm"
                         ),
+                        array(
+                            "Lunch-Time" => "1pm-2pm"
+                        ),
 
                         array(
-                            "Subject" => "Computer Science",
+                            "Name" => "Computer Science",
                             "Teacher" => "Maloo Sharma",
                             "Time" => "2pm-3pm"
                         ),
@@ -805,10 +879,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "435/500",
+                            "Marks-Obtained" => "435",
+                            "Total-Marks" => "500",
                             "Percentage" => "87%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
 
                         ),
                         array(
@@ -824,10 +899,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "429/500",
+                            "Marks-Obtained" => "429",
+                            "Total-Marks" => "500",
                             "Percentage" => "86%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rahul Thakur",
@@ -842,10 +918,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "335/500",
+                            "Marks-Obtained" => "335",
+                            "Total-Marks" => "500",
                             "Percentage" => "67%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Nisha Thakur",
@@ -860,10 +937,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "313/500",
+                            "Marks-Obtained" => "313",
+                            "Total-Marks" => "500",
                             "Percentage" => "63%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rohit Thakur",
@@ -878,10 +956,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Rajat Thakur",
@@ -896,10 +975,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "85"
                             ),
-                            "Total-marks" => "425/500",
+                            "Marks-Obtained" => "425",
+                            "Total-Marks" => "500",
                             "Percentage" => "85%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ratan Thakur",
@@ -914,10 +994,11 @@
                                 "Mathematics" => "95",
                                 "Computer Science" => "95"
                             ),
-                            "Total-marks" => "435/500",
+                            "Marks-Obtained" => "435",
+                            "Total-Marks" => "500",
                             "Percentage" => "87%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Isha Sharma",
@@ -932,10 +1013,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Ritik Thakur",
@@ -950,10 +1032,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "75"
                             ),
-                            "Total-marks" => "313/500",
+                            "Marks-Obtained" => "313",
+                            "Total-Marks" => "500",
                             "Percentage" => "63%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
                         array(
                             "Name" => "Sania Thakur",
@@ -968,10 +1051,11 @@
                                 "Mathematics" => "65",
                                 "Computer Science" => "65"
                             ),
-                            "Total-marks" => "304/500",
+                            "Marks-Obtained" => "304",
+                            "Total-Marks" => "500",
                             "Percentage" => "60%",
                             "Remarks" => "Pass",
-                            "Division" => "1st division"
+                            "Division" => "First"
                         ),
 
                     ),
@@ -982,18 +1066,10 @@
                         "Name" => "Jagdish Thakur",
                     ),
                     "Teachers" => array(
-
-                        array(
-                            "Name" => "Hemant Thakur",
-                            "Subjects" => "Mathematics",
-                            "Qualification" => array(
-                                "Degree" => "Bsc(Mathematics)",
-                                "Master's Degree" => "Msc(Mathematics)"
-                            ),
-                        ),
                         array(
                             "Name" => "Pinkee Sharma",
                             "Subjects" => "English",
+                            "Time" => "9am-10pm",
                             "Qualification" => array(
                                 "Degree" => "BCA",
                                 "Master's Degree" => "MCA"
@@ -1001,17 +1077,9 @@
                             ),
                         ),
                         array(
-                            "Name" => "Maloo Sharma",
-                            "Subjects" => "Computer Science",
-                            "Qualification" => array(
-                                "Degree" => "BCA(IT)",
-                                "Master's Degree" => "MCA"
-                            ),
-
-                        ),
-                        array(
                             "Name" => "Jagdish Thakur",
                             "Subjects" => "Physics",
+                            "Time" => "10am-11am",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Physics)",
                                 "Master's Degree" => "Msc"
@@ -1020,6 +1088,7 @@
                         array(
                             "Name" => "Nirmla Thakur",
                             "Subjects" => "Chemistry",
+                            "Time" => "11am-12pm",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
                                 "Master's Degree" => "Msc"
@@ -1027,6 +1096,29 @@
                             ),
 
                         ),
+
+                        array(
+                            "Name" => "Hemant Thakur",
+                            "Subjects" => "Mathematics",
+                            "Time" => "12pm-1pm",
+                            "Qualification" => array(
+                                "Degree" => "Bsc(Mathematics)",
+                                "Master's Degree" => "Msc(Mathematics)"
+                            ),
+                        ),
+
+                        array(
+                            "Name" => "Maloo Sharma",
+                            "Subjects" => "Computer Science",
+                            "Time" => "2pm-3pm",
+                            "Qualification" => array(
+                                "Degree" => "BCA(IT)",
+                                "Master's Degree" => "MCA"
+                            ),
+
+                        ),
+
+
 
                     ),
                     "Laboratory" => array(
@@ -1056,54 +1148,44 @@
                     "class Moniter" => array(
                         "Name" => "Sania Thakur",
                     ),
-
-                    "ClassRoom" => array(
-                        "Students" => "39",
-                        "Table" => "40",
-                        "Door" => "2",
-                        "Window" => "4",
-                        "Chair"=>"1",
-                        "Lecture Stand"=>"1"
-
-
-                        
-
-
-                    ),
                     "Time" => array(
-                        "School-Time" => array("9am-3pm"),
-                        "Lunch-Time" => array("1pm-2pm"),
-                        "Classes-Time" => array(
-
-
-
-                            array(
-                                "Subject" => "Physics",
-                                "Teacher" => "Jagdish Thakur",
-                                "Time" => "9am-10am"
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Teacher" => "Nirmla Thakur",
-                                "Time" => "10am-11am"
-                            ),
-                            array(
-                                "Subject" => "English",
-                                "Teacher" => "Pinkee Sharma",
-                                "Time" => "11am-12pm",
-                            ),
-                            array(
-                                "Subject" => "Mathematics",
-                                "Teacher" => "Hemant Thakur",
-                                "Time" => "12pm-1pm",
-                            ),
-                            array(
-                                "Subject" => "Computer Science",
-                                "Teacher" => "Maloo Sharma",
-                                "Time" => "2pm-3pm",
-                            ),
-
+                        array(
+                            "Time" => "9am-10am",
+                            "Subject" => "English",
+                            "Teacher" => "Pinkee Sharma",
+                           
                         ),
+
+
+
+                        array(
+                            "Time" => "10am-11am",
+                            "Subject" => "Physics",
+                            "Teacher" => "Jagdish Thakur",
+                           
+                        ),
+                        array(
+                            "Time" => "11am-12pm",
+                            "Subject" => "Chemistry",
+                            "Teacher" => "Nirmla Thakur",
+                           
+                        ),
+
+                        array(
+                            "Time" => "12pm-1pm",
+                            "Subject" => "Mathematics",
+                            "Teacher" => "Hemant Thakur",
+                           
+                        ),
+                        array("Lunch-Time" => "1pm-2pm"),
+                        array(
+                            "Time" => "2pm-3pm",
+                            "Subject" => "Computer Science",
+                            "Teacher" => "Maloo Sharma",
+                           
+                        ),
+
+
 
                     ),
                 ),
@@ -1116,1535 +1198,271 @@
             ),
             "Teachers" => array(
 
-                "Teacher" => array(
-
-                    array(
-                        "Name" => array("Hemant Thakur", "Dinesh Thakur"),
-                        "Subject" => "Mathematics",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Bsc(Mathematics)",
-                            "Master's Degree" => "Msc"
-
-                        ),
+                array(
+                    "Name" => "Hemant Thakur",
+                    "Subject" => "Mathematics",
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "11.15am-12pm",
+                        "11th" => "2pm-3pm",
+                        "12th" => "12pm-1pm"
                     ),
-                    array(
-                        "Teacher" => "Reena Sharma",
-                        "Subject" => "Hindi",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "BA(Hindi)",
-                            "Master's Degree" => "MA"
-
-
-                        ),
-                    ),
-                    array(
-                        "Teacher" =>  "Anshika Thakut",
-                        "Subject" => "Science",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "Bsc",
-                            "Master's Degree" => "Msc"
-                        ),
-                    ),
-
-                    array(
-                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
-                        "Subject" => "English",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "BCA",
-                            "Master's Degree" => "MCA"
-                        ),
-                    ),
-                    array(
-                        "Teacher" => "Ritika Sharma",
-                        "Subject" => "History",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "BA(History)",
-                            "Master's Degree" => "MA"
-                        ),
-
-                    ),
-                    array(
-                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
-                        "Subject" => "Computer Science",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "BCA(IT)",
-                            "Master's Degree" => "MCA(IT)"
-                        ),
-                    ),
-                    array(
-                        "Teacher" => "Rajat Sen",
-                        "Subject" => "Mechanics",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "B.tech",
-                            "Master's Degree" => "M.tech"
-
-                        ),
-                    ),
-
-                    "Teacher" => array(
-                        "Teacher" => "Nirmla Thakur",
-                        "Subject" => "Chemistry",
-                        "Class" => array("11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Bsc(Physics)",
-                            "Master's" => "Msc"
-                        ),
-                    ),
-                    "Teacher" => array(
-                        "Teacher" => "Jagdish Thakur",
-                        "Subject" => "Physics",
-                        "Class" => array("11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Msc(Chemistry)",
-                            "Master" => "Msc"
-
-                        ),
-                    ),
-                ),
-
-                "Class-incharge" => array(
-                    "Dinesh Thakur(10th)",
-                     "Nirmla Thakur(11th)",
-                    "Jagdish Thakur(12th)"
-                ),
-                "Time" => array(
-
-                    "Teacher-Time" => array("9am-3pm"),
-                    "Lunch-Time" => array("12.45pm-1.30pm"),
-                    "Time-Table 10th" => array(
-
-
-                        array(
-                            "subject" => "Science",
-                            "Teacher" => "Anshika Thakur",
-                            "Time" => "9am-10am"
-                        ),
-                        array(
-                            "subject" => "History",
-                            "Teacher" => "Ritika Sharma",
-                            "Time" => "10am-11am"
-                        ),
-                        array(
-                            "subject" => "Hindi",
-                            "Teacher" => "Reena Sharma",
-                            "Time" => "11am-12pm"
-                        ),
-
-                        array(
-                            "subject" => "Mathematics",
-                            "Teacher" => "Dinesh Thakur",
-                            "Time" => "12pm-1pm"
-                        ),
-                        array(
-                            "subject" => "Computer Science",
-                            "Teacher" => "Munish Patiyal",
-                            "Time" => "1pm-2pm"
-                        ),
-                        array(
-                            "subject" => "English",
-                            "Teacher" => "Divya Sharma",
-                            "Time" => "2pm-3pm"
-                        ),
-                        array(
-                            "subject" => "Mechanics",
-                            "Teacher" => "Rajat Sen",
-                            "Time" => "3pm-4pm"
-                        ),
-
-
-
-
-                    ),
-                    "Time-Table 11th" => array(
-
-
-                        array(
-                            "Subject" => "Physics",
-                            "Teacher" => "Jagdish Thakur",
-                            "Time" => "9am-10am"
-                        ),
-                        array(
-                            "Subject" => "Chemistry",
-                            "Teacher" => "Nirmla Thakur",
-                            "Time" => "10am-11am"
-                        ),
-                        array(
-                            "Subject" => "English",
-                            "Teacher" => "Pinkee Sharma",
-                            "Time" => "11am-12pm"
-                        ),
-                        array(
-                            "Subject" => "Mathematics",
-                            "Teacher" => "Hemant Thakur",
-                            "Time" => "12pm-1pm",
-                        ),
-                        array(
-                            "Subject" => "Computer science",
-                            "Teacher" => "Maloo Sharma",
-                            "Time" => "2pm-3pm",
-                        ),
-
-
-                    ),
-                    "Time-Table 12th" => array(
-
-
-                        array(
-                            "Subject" => "Physics",
-                            "Teacher" => "Jagdish Thakur",
-                            "Time" => "9am-10am"
-                        ),
-                        array(
-                            "Subject" => "Chemistry",
-                            "Teacher" => "Nirmla Thakur",
-                            "Time" => "10am-11am"
-                        ),
-                        array(
-                            "Subject" => "English",
-                            "Teacher" => "Pinkee Sharma",
-                            "Time" => "11am-12pm",
-                        ),
-                        array(
-                            "Subject" => "Mathematics",
-                            "Teacher" => "Hemant Thakur",
-                            "Time" => "12pm-1pm",
-                        ),
-                        array(
-                            "Subject" => "Computer Science",
-                            "Teacher" => "Maloo Sharma",
-                            "Time" => "2pm-3pm",
-                        ),
+                    "Qualification" => array(
+                        "Degree" => "Bsc(Mathematics)",
+                        "Master's Degree" => "Msc"
 
                     ),
                 ),
-                "Classes" => array(
+                array(
+                    "Name" => "Reena Sharma",
+                    "Subject" => "Hindi",
+                    "Class" => "10th",
+                    "Time" => "10.30am-11.15am",
+                    "Qualification" => array(
+                        "Degree" => "BA(Hindi)",
+                        "Master's Degree" => "MA"
 
-                    "10th" => array(
-                        "Rooms" => array(
-                            array("RoomNo." => "9", "capicity" => "50"),
-                            array("RoomNo." => "10", "Title" => "Computer-Science Lab."),
-                            array("RoomNo." => "11", "Title" => "Science Lab."),
-                        ),
-                        "Subjects" => array(
-    
-                            array(
-                                "Subject" => "Science",
-                                "Teacher" => "Anshika Thakur",
-                                "Time" => "9am-9.45am"
-                            ),
-                            array(
-                                "Subject" => "History",
-                                "Teacher" => "Ritika Sharma",
-                                "Time" => "9.45am-10.30am"
-                            ),
-                            array(
-                                "Subject" => "Hindi",
-                                "Teacher" => "Reena Sharma",
-                                "Time" => "10.30am-11.15am"
-                            ),
-                            array(
-                                "Subject" => "Mathematics",
-                                "Teacher" => "Dinesh Thakur",
-                                "Time" => "11.15am-12pm"
-                            ),
-                            array(
-                                "Subject" => "Computer Science",
-                                "Teacher" => "Munish Patiyal",
-                                "Time" => "12pm-12.45pm"
-                            ),
-                            array(
-                                "Subject" => "English",
-                                "Teacher" => "Divya Sharma",
-                                "Time" => "1.30pm-2.15pm"
-                            ),
-                            array(
-                                "Subject" => "Mechanics",
-                                "Teacher" => "Rajat Sen",
-                                "Time" => "2.15pm-3pm"
-                            ),
-    
-    
-                        ),
-                        "Students" => array(
-    
-                            array(
-                                "Name" => "Aadi Thakur",
-                                "Age" => "14",
-                                "Roll No." => "1",
-                                "E-mail" => "aadithakur@gmail.com",
-                                "Date Of Birth" => "12-4-2000",
-                                "marks" => array(
-                                    "hindi" => "85",
-                                    "English" => "82",
-                                    "Science" => "80",
-                                    "History" => "91",
-                                    "Computer Science" => "93",
-                                    "Mathematics" => "79",
-                                    "Mechanics" => "81"
-                                ),
-                                "Total-marks" => "591/700",
-                                "Percentage" => "84%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Robin Thakur",
-                                "Age" => "14",
-                                "Roll No." => "2",
-                                "E-mail" => "Robinthakur@gmail.com",
-                                "Date Of Birth" => "10-1-2000",
-                                "marks" => array(
-                                    "hindi" => "80",
-                                    "English" => "75",
-                                    "Science" => "77",
-                                    "History" => "72",
-                                    "Computer Science" => "95",
-                                    "Mathematics" => "75",
-                                    "Mechanics" => "77"
-                                ),
-                                "Total-marks" => "551/700",
-                                "Percentage" => "79%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Rahul Thakur",
-                                "Age" => "13",
-                                "Roll No." => "3",
-                                "E-mail" => "Rahulthakur@gmail.com",
-                                "Date Of Birth" => "9-7-2000",
-                                "marks" => array(
-                                    "hindi" => "88",
-                                    "English" => "70",
-                                    "Science" => "80",
-                                    "History" => "91",
-                                    "Computer Science" => "87",
-                                    "Mathematics" => "73",
-                                    "Mechanics" => "67"
-                                ),
-                                "Total-marks" => "556/700",
-                                "Percentage" => "79%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Nisha Thakur",
-                                "Age" => "13",
-                                "Roll No." => "4",
-                                "E-mail" => "nishathakur@gmail.com",
-                                "Date Of Birth" => "3-3-2001",
-                                "marks" => array(
-                                    "hindi" => "85",
-                                    "English" => "82",
-                                    "Science" => "80",
-                                    "History" => "91",
-                                    "Computer Science" => "95",
-                                    "Mathematics" => "79",
-                                    "Mechanics" => "79"
-                                ),
-                                "Total-marks" => "591/700",
-                                "Percentage" => "84%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Rohit Thakur",
-                                "Age" => "14",
-                                "Roll No." => "5",
-                                "E-mail" => "rohitthakur@gmail.com",
-                                "Date Of Birth" => "17-3-2001",
-                                "marks" => array(
-                                    "hindi" => "60",
-                                    "English" => "65",
-                                    "Science" => "59",
-                                    "History" => "70",
-                                    "Computer Science" => "75",
-                                    "Mathematics" => "55",
-                                    "Mechanics" => "69"
-                                ),
-                                "Total-marks" => "453/700",
-                                "Percentage" => "65%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Rajat Thakur",
-                                "Age" => "13",
-                                "Roll No." => "6",
-                                "E-mail" => "rajattthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "marks" => array(
-                                    "hindi" => "80",
-                                    "English" => "70",
-                                    "Science" => "65",
-                                    "History" => "91",
-                                    "Computer Science" => "93",
-                                    "Mathematics" => "73",
-                                    "Mechanics" => "77"
-                                ),
-                                "Total-marks" => "549/700",
-                                "Percentage" => "78%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Ratan Thakur",
-                                "Age" => "13",
-                                "Roll No." => "7",
-                                "E-mail" => "ratanthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "marks" => array(
-                                    "hindi" => "85",
-                                    "English" => "70",
-                                    "Science" => "69",
-                                    "History" => "83",
-                                    "Computer Science" => "79",
-                                    "Mathematics" => "69",
-                                    "Mechanics" => "66"
-                                ),
-                                "Total-marks" => "521/700",
-                                "Percentage" => "74%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Isha Sharma",
-                                "Age" => "13",
-                                "Roll No." => "8",
-                                "E-mail" => "Ishasharma@gmail.com",
-                                "Date Of Birth" => "27-11-2000",
-                                "marks" => array(
-                                    "hindi" => "80",
-                                    "English" => "70",
-                                    "Science" => "65",
-                                    "History" => "91",
-                                    "Computer Science" => "93",
-                                    "Mathematics" => "79",
-                                    "Mechanics" => "81"
-                                ),
-                                "Total-marks" => "559/700",
-                                "Percentage" => "80%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Ritik Thakur",
-                                "Age" => "13",
-                                "Roll No." => "9",
-                                "E-mail" => "Ritikthakur@gmail.com",
-                                "Date Of Birth" => "27-12-2001",
-                                "marks" => array(
-                                    "hindi" => "65",
-                                    "English" => "62",
-                                    "Science" => "60",
-                                    "History" => "71",
-                                    "Computer Science" => "83",
-                                    "Mathematics" => "69",
-                                    "Mechanics" => "71"
-                                ),
-                                "Total-marks" => "481/700",
-                                "Percentage" => "69%",
-                                "Remarks" => "pass"
-                            ),
-                            array(
-                                "Name" => "Sania Thakur",
-                                "Age" => "13",
-                                "Roll No." => "10",
-                                "E-mail" => "saniathakur@gmail.com",
-                                "Date Of Birth" => "4-4-2001",
-                                "marks" => array(
-                                    "hindi" => "90",
-                                    "English" => "87",
-                                    "Science" => "80",
-                                    "History" => "81",
-                                    "Computer Science" => "93",
-                                    "Mathematics" => "77",
-                                    "Mechanics" => "81"
-                                ),
-                                "Total-marks" => "589/700",
-                                "Percentage" => "84%",
-                                "Remarks" => "pass"
-                            ),
-                        ),
-    
-                        "Lunch-time" => array(
-                            "Time" => "12.45pm-1.30pm"
-                        ),
-                        "Class-incharge" => array(
-                            "Name" => "Dinesh Thakur"
-                        ),
-                        "Laboratory" => array(
-                            array(
-                                "Subject" => "Science",
-                                "Day" => "Monday",
-                                "Time" => "9am-9.45am"
-                            ),
-                            array(
-                                "Subject" => "Computer Science",
-                                "Day" => "Friday",
-                                "Time" => "12pm-12.45pm",
-                                "Teacher" => "Munish Patiyal"
-    
-                            ),
-    
-                        ),
-                        "Teachers" => array(
-                            array(
-                                "Name" => "Dinesh Thakur",
-                                "Subjects" => "Mathematics",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc(Mathematics)",
-                                    "Master's Degree" => "Msc"
-                                ),
-    
-                            ),
-                            array(
-                                "Name" => "Divya Sharma",
-                                "Subjects" => "English",
-                                "Qualification" => array(
-                                    "Degree" => "BCA",
-                                    "Master's Degree" => "MCA"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Munish Patiyal",
-                                "Subjects" => "Computer Science",
-                                "Qualification" => array(
-                                    "Degree" => "BCA(IT)",
-                                    "Master's Degree" => "MCA(IT)"
-                                ),
-    
-                            ),
-                            array(
-                                "Name" => "Ritika Sharma",
-                                "Subjects" => "History",
-                                "Qualification" => array(
-                                    "Degree" => "BA(History)",
-                                    "Master's Degree" => "MA"
-                                ),
-    
-                            ),
-                            array(
-                                "Name" => "anshika Thakur",
-                                "Subjects" => "Science",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc",
-                                    "Master's Degree" => "Msc"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Reena Sharma",
-                                "Subjects" => "Hindi",
-                                "Qualification" => array(
-                                    "Degree" => "BA(Hindi)",
-                                    "Master's Degree" => "MA"
-    
-    
-                                ),
-                            ),
-                            array(
-                                "Name" => "Rajat Sen",
-                                "Subjects" => "Mechanics",
-                                "Qualification" => array(
-                                    "Degree" => "B.tech",
-                                    "Master's Degree" => "M.tech"
-    
-                                ),
-                            ),
-                        ),
-                        "class Moniter" => array(
-                            "Namee" => "Rajat Thakur",
-                        ),
-    
-                        "ClassRoom" => array(
-                            "Students" => "39",
-                            "Table" => "30",
-                            "Door" => "2",
-                            "Window" => "2",
-                            "Chair"=>"1",
-                            "Lecture Stand"=>"1"
-    
-                        ),
-    
-                        "Time" => array(
-    
-                            "School-Time" => "9am-3pm",
-                            "Lunch-Time" => "12.45pm-1.30pm",
-                            "Classes-Time" => array(
-    
-    
-                                array(
-                                    "subject" => "Science",
-                                    "Teacher" => "Anshika Thakur",
-                                    "Time" => "9am-10am"
-                                ),
-                                array(
-                                    "subject" => "History",
-                                    "Teacher" => "Ritika Sharma",
-                                    "Time" => "10am-11am"
-                                ),
-                                array(
-                                    "subject" => "Hindi",
-                                    "Teacher" => "Reena Sharma",
-                                    "Time" => "11am-12pm"
-                                ),
-    
-                                array(
-                                    "subject" => "Mathematics",
-                                    "Teacher" => "Dinesh Thakur",
-                                    "Time" => "12pm-1pm"
-                                ),
-                                array(
-                                    "subject" => "Computer Science",
-                                    "Teacher" => "Munish Patiyal",
-                                    "Time" => "1pm-2pm"
-                                ),
-                                array(
-                                    "subject" => "English",
-                                    "Teacher" => "Divya Sharma",
-                                    "Time" => "2pm-3pm"
-                                ),
-                                array(
-                                    "subject" => "Mechanics",
-                                    "Teacher" => "Rajat Sen",
-                                    "Time" => "3pm-4pm"
-                                ),
-    
-    
-    
-    
-                            ),
-                        ),
-    
+
                     ),
-    
-    
-                    "11th" => array(
-                        "Rooms" => array(
-                            array("RoomNo." => "1", "capicity" => "40"),
-                            array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
-                            array("RoomNo." => "11", "Title" => "Physics Lab."),
-                            array("RoomNo." => "10", "Title" => "Chemistry Lab."),
-    
-                        ),
-                        "Subjects" => array(
-    
-                            array(
-                                "Subject" => "Physics",
-                                "Teacher" => "Jagdish Thakur",
-                                "Time" => "9am-10am"
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Teacher" => "Nirmla Thakur",
-                                "Time" => "10am-11am"
-                            ),
-                            array(
-                                "Subject" => "English",
-                                "Teacher" => "Pinkee Sharma",
-                                "Time" => "11am-12pm"
-                            ),
-    
-    
-                            array(
-                                "Subject" => "Computer Science",
-                                "Teacher" => "Maloo Sharma",
-                                "Time" => "12pm-1pm",
-                            ),
-                            array(
-                                "Subject" => "Mathematics",
-                                "Teacher" => "Hemant Thakur",
-                                "Time" => "2pm-3pm"
-                            ),
-    
-    
-    
-                        ),
-                        "Students" => array(
-    
-                            array(
-                                "Name" => "Aadi Thakur",
-                                "Age" => "15",
-                                "Roll No." => "1",
-                                "E-mail" => "aadithakur@gmail.com",
-                                "Date Of Birth" => "12-4-2000",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "435/500",
-                                "Percentage" => "87%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-    
-                            ),
-                            array(
-                                "Name" => "Robin Thakur",
-                                "Age" => "15",
-                                "Roll No." => "2",
-                                "E-mail" => "Robinthakur@gmail.com",
-                                "Date Of Birth" => "10-1-2000",
-                                "Marks" => array(
-                                    "Physics" => "80",
-                                    "Chemistry" => "75",
-                                    "English" => "84",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "429/500",
-                                "Percentage" => "86%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rahul Thakur",
-                                "Age" => "14",
-                                "Roll No." => "3",
-                                "E-mail" => "Rahulthakur@gmail.com",
-                                "Date Of Birth" => "9-7-2000",
-                                "Marks" => array(
-                                    "Physics" => "60",
-                                    "Chemistry" => "65",
-                                    "English" => "70",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "335/500",
-                                "Percentage" => "67%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Nisha Thakur",
-                                "Age" => "14",
-                                "Roll No." => "4",
-                                "E-mail" => "nishathakur@gmail.com",
-                                "Date Of Birth" => "3-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "55",
-                                    "Chemistry" => "58",
-                                    "English" => "60",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "313/500",
-                                "Percentage" => "63%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rohit Thakur",
-                                "Age" => "15",
-                                "Roll No." => "5",
-                                "E-mail" => "rohitthakur@gmail.com",
-                                "Date Of Birth" => "17-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rajat Thakur",
-                                "Age" => "14",
-                                "Roll No." => "6",
-                                "E-mail" => "rajattthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "85"
-                                ),
-                                "Total-marks" => "425/500",
-                                "Percentage" => "85%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Ratan Thakur",
-                                "Age" => "14",
-                                "Roll No." => "7",
-                                "E-mail" => "ratanthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "435/500",
-                                "Percentage" => "87%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Isha Sharma",
-                                "Age" => "14",
-                                "Roll No." => "8",
-                                "E-mail" => "Ishasharma@gmail.com",
-                                "Date Of Birth" => "27-11-2000",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Ritik Thakur",
-                                "Age" => "14",
-                                "Roll No." => "9",
-                                "E-mail" => "Ritikthakur@gmail.com",
-                                "Date Of Birth" => "27-12-2001",
-                                "Marks" => array(
-                                    "Physics" => "55",
-                                    "Chemistry" => "58",
-                                    "English" => "60",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "313/500",
-                                "Percentage" => "63%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Sania Thakur",
-                                "Age" => "14",
-                                "Roll No." => "10",
-                                "E-mail" => "saniathakur@gmail.com",
-                                "Date Of Birth" => "4-4-2001",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-    
-                        ),
-                        "Lunch-time" => array(
-                            "Time" => "1pm-2pm",
-                        ),
-                        "Class-incharge" => array(
-                            "Name" => "Nirmla Thakur",
-                        ),
-                        "Teachers" => array(
-    
-                            array(
-                                "Name" => "Hemant Thakur",
-                                "Subjects" => "Mathematics",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc(Mathematics)",
-                                    "Master's Degree" => "Msc(Mathematics)"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Pinkee Sharma",
-                                "Subjects" => "English",
-                                "Qualification" => array(
-                                    "Degree" => "BCA",
-                                    "Master's Degree" => "MCA"
-    
-                                ),
-                            ),
-                            array(
-                                "Name" => "Maloo Sharma",
-                                "Subjects" => "Computer Science",
-                                "Qualification" => array(
-                                    "Degree" => "BCA(IT)",
-                                    "Master's Degree" => "MCA"
-                                ),
-    
-                            ),
-                            array(
-                                "Name" => "Jagdish Thakur",
-                                "Subjects" => "Physics",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc(Physics)",
-                                    "Master's Degree" => "Msc"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Nirmla Thakur",
-                                "Subjects" => "Chemistry",
-                                "Qualification" => array(
-                                    "Degree" => "Msc(Chemistry)",
-                                    "Master's Degree" => "Msc"
-    
-                                ),
-    
-                            ),
-    
-                        ),
-                        "Laboratory" => array(
-                            array(
-                                "Subject" => "Physics",
-                                "Day" => "Monday",
-                                "Time" => "9am-10am",
-                                "Teacher" => "Jagdish Thakur"
-    
-                            ),
-                            array(
-                                "Subject" => "Computer Science",
-                                "Day" => "Friday",
-                                "Time" => "1pm-2pm",
-                                "Teacher" => "Maloo Sharma"
-    
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Day" => "Wednesday",
-                                "Time" => "10am-11am",
-                                "Teacher" => "Nirmla Thakur"
-    
-                            ),
-    
-                        ),
-                        "class Moniter" => array(
-                            "Name" => "Ritik Thakur",
-                        ),
-    
-                        "ClassRoom" => array(
-                            "Students" => "39",
-                            "Table" => "34",
-                            "Door" => "2",
-                            "Window" => "3",
-                            "Chair"=>"1",
-                            "Lecture Stand"=>"1"
-    
-    
-    
-                        ),
-                        "Time" => array(
-                            "School-Time" => "9am-3pm",
-                            "Lunch-Time" => "1pm-2pm",
-                            "Classes-Time" => array(
-    
-    
-                                array(
-                                    "Subject" => "Physics",
-                                    "Teacher" => "Jagdish Thakur",
-                                    "Time" => "9am-10am"
-                                ),
-                                array(
-                                    "Subject" => "Chemistry",
-                                    "Teacher" => "Nirmla Thakur",
-                                    "Time" => "10am-11am"
-                                ),
-                                array(
-                                    "Subject" => "English",
-                                    "Teacher" => "Pinkee Sharma",
-                                    "Time" => "11am-12pm"
-                                ),
-                                array(
-                                    "Subject" => "Mathematics",
-                                    "Teacher" => "Hemant Thakur",
-                                    "Time" => "12pm-1pm",
-                                ),
-                                array(
-                                    "Subject" => "Computer science",
-                                    "Teacher" => "Maloo Sharma",
-                                    "Time" => "2pm-3pm",
-                                ),
-    
-    
-                            ),
-                        ),
-                    ),
-    
-                    "Class12" => array(
-                        "Rooms" => array(
-                            array("RoomNo." => "2", "capicity" => "40"),
-                            array("RoomNo." => "5", "Title" => "Computer-Science Lab.", "Computer" => "20"),
-                            array("RoomNo." => "8", "Title" => "Physics Lab."),
-                            array("RoomNo." => "9", "Title" => "Chemistry Lab."),
-    
-                        ),
-                        "Subjects" => array(
-                            array(
-                                "Subject" => "English",
-                                "Teacher" => "Pinkee Sharma",
-                                "Time" => "9am-10pm"
-                            ),
-                            array(
-                                "Subject" => "Physics",
-                                "Teacher" => "Jagdish Thakur",
-                                "Time" => "10am-11am"
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Teacher" => "Nirmla Thakur",
-                                "Time" => "11am-12pm",
-                            ),
-    
-                            array(
-                                "Subject" => "Mathematics",
-                                "Teacher" => "Hemant Thakur",
-                                "Time" => "12pm-1pm"
-                            ),
-    
-                            array(
-                                "Subject" => "Computer Science",
-                                "Teacher" => "Maloo Sharma",
-                                "Time" => "2pm-3pm"
-                            ),
-                        ),
-                        "Students" => array(
-    
-                            array(
-                                "Name" => "Aadi Thakur",
-                                "Age" => "16",
-                                "Roll No." => "1",
-                                "E-mail" => "aadithakur@gmail.com",
-                                "Date Of Birth" => "12-4-2000",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "435/500",
-                                "Percentage" => "87%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-    
-                            ),
-                            array(
-                                "Name" => "Robin Thakur",
-                                "Age" => "16",
-                                "Roll No." => "2",
-                                "E-mail" => "Robinthakur@gmail.com",
-                                "Date Of Birth" => "10-1-2000",
-                                "Marks" => array(
-                                    "Physics" => "80",
-                                    "Chemistry" => "75",
-                                    "English" => "84",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "429/500",
-                                "Percentage" => "86%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rahul Thakur",
-                                "Age" => "15",
-                                "Roll No." => "3",
-                                "E-mail" => "Rahulthakur@gmail.com",
-                                "Date Of Birth" => "9-7-2000",
-                                "Marks" => array(
-                                    "Physics" => "60",
-                                    "Chemistry" => "65",
-                                    "English" => "70",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "335/500",
-                                "Percentage" => "67%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Nisha Thakur",
-                                "Age" => "15",
-                                "Roll No." => "4",
-                                "E-mail" => "nishathakur@gmail.com",
-                                "Date Of Birth" => "3-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "55",
-                                    "Chemistry" => "58",
-                                    "English" => "60",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "313/500",
-                                "Percentage" => "63%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rohit Thakur",
-                                "Age" => "16",
-                                "Roll No." => "5",
-                                "E-mail" => "rohitthakur@gmail.com",
-                                "Date Of Birth" => "17-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Rajat Thakur",
-                                "Age" => "16",
-                                "Roll No." => "6",
-                                "E-mail" => "rajattthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "85"
-                                ),
-                                "Total-marks" => "425/500",
-                                "Percentage" => "85%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Ratan Thakur",
-                                "Age" => "15",
-                                "Roll No." => "7",
-                                "E-mail" => "ratanthakur@gmail.com",
-                                "Date Of Birth" => "27-3-2001",
-                                "Marks" => array(
-                                    "Physics" => "75",
-                                    "Chemistry" => "80",
-                                    "English" => "90",
-                                    "Mathematics" => "95",
-                                    "Computer Science" => "95"
-                                ),
-                                "Total-marks" => "435/500",
-                                "Percentage" => "87%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Isha Sharma",
-                                "Age" => "17",
-                                "Roll No." => "8",
-                                "E-mail" => "Ishasharma@gmail.com",
-                                "Date Of Birth" => "27-11-2000",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Ritik Thakur",
-                                "Age" => "16",
-                                "Roll No." => "9",
-                                "E-mail" => "Ritikthakur@gmail.com",
-                                "Date Of Birth" => "27-12-2001",
-                                "Marks" => array(
-                                    "Physics" => "55",
-                                    "Chemistry" => "58",
-                                    "English" => "60",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "75"
-                                ),
-                                "Total-marks" => "313/500",
-                                "Percentage" => "63%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-                            array(
-                                "Name" => "Sania Thakur",
-                                "Age" => "15",
-                                "Roll No." => "10",
-                                "E-mail" => "saniathakur@gmail.com",
-                                "Date Of Birth" => "4-4-2001",
-                                "Marks" => array(
-                                    "Physics" => "50",
-                                    "Chemistry" => "58",
-                                    "English" => "66",
-                                    "Mathematics" => "65",
-                                    "Computer Science" => "65"
-                                ),
-                                "Total-marks" => "304/500",
-                                "Percentage" => "60%",
-                                "Remarks" => "Pass",
-                                "Division" => "1st division"
-                            ),
-    
-                        ),
-                        "Lunch-time" => array(
-                            "Time" => "1pm-2pm",
-                        ),
-                        "Class-incharge" => array(
-                            "Name" => "Jagdish Thakur",
-                        ),
-                        "Teachers" => array(
-    
-                            array(
-                                "Name" => "Hemant Thakur",
-                                "Subjects" => "Mathematics",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc(Mathematics)",
-                                    "Master's Degree" => "Msc(Mathematics)"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Pinkee Sharma",
-                                "Subjects" => "English",
-                                "Qualification" => array(
-                                    "Degree" => "BCA",
-                                    "Master's Degree" => "MCA"
-    
-                                ),
-                            ),
-                            array(
-                                "Name" => "Maloo Sharma",
-                                "Subjects" => "Computer Science",
-                                "Qualification" => array(
-                                    "Degree" => "BCA(IT)",
-                                    "Master's Degree" => "MCA"
-                                ),
-    
-                            ),
-                            array(
-                                "Name" => "Jagdish Thakur",
-                                "Subjects" => "Physics",
-                                "Qualification" => array(
-                                    "Degree" => "Bsc(Physics)",
-                                    "Master's Degree" => "Msc"
-                                ),
-                            ),
-                            array(
-                                "Name" => "Nirmla Thakur",
-                                "Subjects" => "Chemistry",
-                                "Qualification" => array(
-                                    "Degree" => "Msc(Chemistry)",
-                                    "Master's Degree" => "Msc"
-    
-                                ),
-    
-                            ),
-    
-                        ),
-                        "Laboratory" => array(
-                            array(
-                                "Subject" => "Physics",
-                                "Day" => "Monday",
-                                "Time" => "10am-11am",
-                                "Teacher" => "Jagdish Thakur"
-    
-                            ),
-                            array(
-                                "Subject" => "Computer Science",
-                                "Day" => "Friday",
-                                "Time" => "2pm-3pm",
-                                "Teacher" => "Maloo Sharma"
-    
-                            ),
-                            array(
-                                "Subject" => "Chemistry",
-                                "Day" => "Wednesday",
-                                "Time" => "11am-12pm",
-                                "Teacher" => "Nirmla Thakur"
-    
-                            ),
-    
-                        ),
-                        "class Moniter" => array(
-                            "Name" => "Sania Thakur",
-                        ),
-    
-                        "ClassRoom" => array(
-                            "Students" => "39",
-                            "Table" => "40",
-                            "Door" => "2",
-                            "Window" => "4",
-                            "Chair"=>"1",
-                            "Lecture Stand"=>"1"
-    
-    
-                            
-    
-    
-                        ),
-                        "Time" => array(
-                            "School-Time" => array("9am-3pm"),
-                            "Lunch-Time" => array("1pm-2pm"),
-                            "Classes-Time" => array(
-    
-    
-    
-                                array(
-                                    "Subject" => "Physics",
-                                    "Teacher" => "Jagdish Thakur",
-                                    "Time" => "9am-10am"
-                                ),
-                                array(
-                                    "Subject" => "Chemistry",
-                                    "Teacher" => "Nirmla Thakur",
-                                    "Time" => "10am-11am"
-                                ),
-                                array(
-                                    "Subject" => "English",
-                                    "Teacher" => "Pinkee Sharma",
-                                    "Time" => "11am-12pm",
-                                ),
-                                array(
-                                    "Subject" => "Mathematics",
-                                    "Teacher" => "Hemant Thakur",
-                                    "Time" => "12pm-1pm",
-                                ),
-                                array(
-                                    "Subject" => "Computer Science",
-                                    "Teacher" => "Maloo Sharma",
-                                    "Time" => "2pm-3pm",
-                                ),
-    
-                            ),
-    
-                        ),
-                    ),
-    
-    
-    
-    
-    
-                    //end classes
                 ),
+                array(
+                    "Name" =>  "Anshika Thakut",
+                    "Subject" => "Science",
+                    "Class" => "10th",
+                    "Time" => "9am-9.45am",
+                    "Qualification" => array(
+                        "Degree" => "Bsc",
+                        "Master's Degree" => "Msc"
+                    ),
+                ),
+
+                array(
+                    "Name" => "Pinkee Sharma",
+                    "Subject" => "English",
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "1.30pm-2.15pm",
+                        "11th" => "11am-12pm",
+                        "12th" => "9am-10am"
+                    ),
+                    "Qualification" => array(
+                        "Degree" => "BCA",
+                        "Master's Degree" => "MCA"
+                    ),
+                ),
+                array(
+                    "Name" => "Ritika Sharma",
+                    "Subject" => "History",
+                    "Class" => "10th",
+                    "Time" => "9.45am-10.30am",
+                    "Qualification" => array(
+                        "Degree" => "BA(History)",
+                        "Master's Degree" => "MA"
+                    ),
+
+                ),
+                array(
+                    "Name" => "Maloo Sharma",
+                    "Subject" => "Computer Science",
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "12pm-12.45pm",
+                        "11th" => "10am-11am",
+                        "12th" => "2pm-3pm"
+                    ),
+                    "Qualification" => array(
+                        "Degree" => "BCA(IT)",
+                        "Master's Degree" => "MCA(IT)"
+                    ),
+                ),
+                array(
+                    "Name" => "Rajat Sen",
+                    "Subject" => "Mechanics",
+                    "Class" => "10th",
+                    "Time" => "2.15pm-3pm",
+                    "Qualification" => array(
+                        "Degree" => "B.tech",
+                        "Master's Degree" => "M.tech"
+
+                    ),
+                ),
+
+                array(
+                    "Name" => "Nirmla Thakur",
+                    "Subject" => "Chemistry",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "12pm-1pm",
+                        "12th" => "11am-12pm"
+                    ),
+                    "Qualification" => array(
+                        "Degree" => "Bsc(Physics)",
+                        "Master's" => "Msc"
+                    ),
+                ),
+                array(
+                    "Name" => "Jagdish Thakur",
+                    "Subject" => "Physics",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "9am-10am",
+                        "12th" => "10am-11am"
+                    ),
+                    "Qualification" => array(
+                        "Degree" => "Msc(Chemistry)",
+                        "Master" => "Msc"
+
+                    ),
+
+                ),
+
+
+
 
 
             ),
             "Subjects" => array(
-                "Subject" => array(
 
-                    array(
-                        "Subject" => "Mathematics",
-                        "Teacher" => array("Hemant Thakur", "Dinesh Thakur"),
-                    ),
-
-
-                    array(
-                        "Subject" => "Hindi",
-                        "Teacher" =>  "Reena Sharma"
-                    ),
-                    array(
-                        "Subject" => "Science",
-                        "Teacher" => "Anshika Thakut"
-                    ),
-
-                    array(
-                        "Subject" => "English",
-                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
-                    ),
-                    array(
-                        "Subject" => "History",
-                        "Teacher" => "Ritika Sharma"
-
-                    ),
-                    array(
-                        "Subject" => "Computer Science",
-                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
-                    ),
-                    array(
-                        "Subject" => "Mechanics",
-                        "Teacher" => "Rajat Sen"
-                    ),
-
-                    array(
-                        "Subject" => "Chemistry",
-                        "Teacher" => "Nirmla Thakur"
-                    ),
-                    array(
-                        "Subject" => "Physics",
-                        "Teacher" => "Jagdish Thakur"
-                    ),
-
-                ),
-                "Teacher" => array(
-
-                    array(
-                        "Name" => array("Hemant Thakur", "Dinesh Thakur"),
-                        "Subject" => "Mathematics",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Bsc(Mathematics)",
-                            "Master's Degree" => "Msc"
-
-                        ),
-                    ),
-                    array(
-                        "Teacher" => "Reena Sharma",
-                        "Subject" => "Hindi",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "BA(Hindi)",
-                            "Master's Degree" => "MA"
-
-
-                        ),
-                    ),
-                    array(
-                        "Teacher" =>  "Anshika Thakut",
-                        "Subject" => "Science",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "Bsc",
-                            "Master's Degree" => "Msc"
-                        ),
-                    ),
-
-                    array(
-                        "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
-                        "Subject" => "English",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "BCA",
-                            "Master's Degree" => "MCA"
-                        ),
-                    ),
-                    array(
-                        "Teacher" => "Ritika Sharma",
-                        "Subject" => "History",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "BA(History)",
-                            "Master's Degree" => "MA"
-                        ),
-
-                    ),
-                    array(
-                        "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
-                        "Subject" => "Computer Science",
-                        "Class" => array("10th", "11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "BCA(IT)",
-                            "Master's Degree" => "MCA(IT)"
-                        ),
-                    ),
-                    array(
-                        "Teacher" => "Rajat Sen",
-                        "Subject" => "Mechanics",
-                        "Class" => "10th",
-                        "Qualification" => array(
-                            "Degree" => "B.tech",
-                            "Master's Degree" => "M.tech"
-
-                        ),
-                    ),
-
-                    "Teacher" => array(
-                        "Teacher" => "Nirmla Thakur",
-                        "Subject" => "Chemistry",
-                        "Class" => array("11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Bsc(Physics)",
-                            "Master's Degree" => "Msc"
-                        ),
-                    ),
-                    "Teacher" => array(
-                        "Teacher" => "Jagdish Thakur",
-                        "Subject" => "Physics",
-                        "Class" => array("11th", "12th"),
-                        "Qualification" => array(
-                            "Degree" => "Msc(Chemistry)",
-                            "Master's Degree" => "Msc"
-
-                        ),
+                array(
+                    "Name" => "Mathematics",
+                    "Teacher" => array("Hemant Thakur"),
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "11.15am-12pm",
+                        "11th" => "2pm-3pm",
+                        "12th" => "12pm-1pm"
                     ),
                 ),
 
-                "Laboratory" => array(
-                    array(
-                        "Subject" => "Science",
-                        "Day" => "Monday",
-                        "Time" => "9am-9.45am",
-                        "Class" => "10th"
+
+                array(
+                    "Name" => "Hindi",
+                    "Teacher" =>  "Reena Sharma",
+                    "Class" => "10th",
+                    "Time" => array(
+                        "10th" => "10.30am-11.15am",
                     ),
-                    array(
-                        "Subject" => "Computer Science",
-                        "Day" => "Friday",
-                        "Time" => "12pm-12.45pm",
-                        "Teacher" => "Munish Patiyal",
-                        "Class" => "10th"
-
+                ),
+                array(
+                    "Name" => "Science",
+                    "Teacher" => "Anshika Thakut",
+                    "Class" => "10th",
+                    "Time" => array(
+                        "10th" => "9am-9.45am",
                     ),
-                    array(
-                        "Subject" => "Physics",
-                        "Day" => "Monday",
-                        "Time" => "9am-10am",
-                        "Teacher" => "Jagdish Thakur",
-                        "Class" => "11th"
 
 
-                    ),
-                    array(
-                        "Subject" => "Chemistry",
-                        "Day" => "Wednesday",
-                        "Time" => "10am-11am",
-                        "Teacher" => "Nirmla Thakur",
-                        "Class" => "11th"
+                ),
 
-
-                    ),
-                    array(
-                        "Subject" => "Computer Science",
-                        "Day" => "Tuesday",
-                        "Time" => "11pm-1pm",
-                        "Teacher" => "Maloo Sharma",
-                        "Class" => "11th"
-
-                    ),
-                    array(
-                        "Subject" => "Physics",
-                        "Day" => "Monday",
-                        "Time" => "10am-11am",
-                        "Teacher" => "Jagdish Thakur",
-                        "Class" => "12th"
-
-                    ),
-                    array(
-                        "Subject" => "Computer Science",
-                        "Day" => "Friday",
-                        "Time" => "2pm-3pm",
-                        "Teacher" => "Maloo Sharma",
-                        "Class" => "12th"
-
-                    ),
-                    array(
-                        "Subject" => "Chemistry",
-                        "Day" => "Wednesday",
-                        "Time" => "11am-12pm",
-                        "Teacher" => "Nirmla Thakur",
-                        "Class" => "12th"
-
+                array(
+                    "Name" => "English",
+                    "Teacher" => array("Divya Sharma", "Pinkee Sharma"),
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "1.30pm-2.15pm",
+                        "11th" => "11am-12pm",
+                        "12th" => "9am-10am"
                     ),
 
                 ),
+                array(
+                    "Name" => "History",
+                    "Teacher" => "Ritika Sharma",
+                    "Class" => "10th",
+                    "Time" => array(
+                        "10th" => "9.45am-10.30am"
+                    )
+
+                ),
+                array(
+                    "Name" => "Computer Science",
+                    "Teacher" => array("Munish Patiyal", "Maloo Sharma"),
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "1.30pm-2.15pm",
+                        "11th" => "12pm-1pm",
+                        "12th" => "2pm-3pm",
+                    ),
+
+                ),
+                array(
+                    "Name" => "Mechanics",
+                    "Teacher" => "Rajat Sen",
+                    "Class" => "10th",
+                    "Time" => array(
+                        "10th" => "2.15-3pm"
+                    )
+
+                ),
+
+                array(
+                    "Name" => "Chemistry",
+                    "Teacher" => "Nirmla Thakur",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "10am-11am",
+                        "12th" => "11am-12pm"
+                    )
+                ),
+                array(
+                    "Name" => "Physics",
+                    "Teacher" => "Jagdish Thakur",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "9am-10am",
+                        "12th" => "10am-11am"
+                    )
+                ),
+
             ),
+            "Laboratory" => array(
+                array(
+                    "Subject" => "Science",
+                    "Day" => "Monday",
+                    "Time" => "9am-9.45am",
+                    "Class" => "10th"
+                ),
+                array(
+                    "Subject" => "Computer Science",
+                    "Day" => "Friday",
+                    "Teacher" => "Munish Patiyal",
+                    "Class" => array("10th", "11th", "12th"),
+                    "Time" => array(
+                        "10th" => "12pm-12.45pm",
+                        "11th" => "12pm-1pm",
+                        "12th" => "2pm-3pm"
+                    ),
+
+                ),
+                array(
+                    "Subject" => "Physics",
+                    "Day" => "Monday",
+                    "Teacher" => "Jagdish Thakur",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "9am-10am",
+                        "12th" => "10am-11am"
+                    ),
+
+
+                ),
+                array(
+                    "Subject" => "Chemistry",
+                    "Day" => "Wednesday",
+                    "Teacher" => "Nirmla Thakur",
+                    "Class" => array("11th", "12th"),
+                    "Time" => array(
+                        "11th" => "10am-11am",
+                        "12th" => "11am-12pm"
+                    ),
+
+
+                ),
+
+
+
+            ),
+
         ),
     );
     echo "<pre>";
