@@ -8,7 +8,7 @@
                 "10th" => array(
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "9",  "Title" => "All Subject", "Students" => "39", "Table" => "30",
+                            "RoomNo." => "9",  "Title" => "", "Students" => "39", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -380,45 +380,45 @@
                             "Time" => "9am-9.45m",
                             "subject" => "Science",
                             "Teacher" => "Anshika Thakur",
-                            
+
                         ),
                         array(
                             "Time" => "9.45am-10.30am",
                             "subject" => "History",
                             "Teacher" => "Ritika Sharma",
-                          
+
                         ),
                         array(
                             "Time" => "10.30am-11.15am",
                             "subject" => "Hindi",
                             "Teacher" => "Reena Sharma",
-                            
+
                         ),
 
                         array(
                             "Time" => "11.15am-12pm",
                             "subject" => "Mathematics",
                             "Teacher" => "Dinesh Thakur",
-                            
+
                         ),
                         array(
                             "Time" => "12pm-12.45pm",
                             "subject" => "Computer Science",
                             "Teacher" => "Munish Patiyal",
-                           
+
                         ),
                         array(
                             "Time" => "12.45pm-1.30pm",
                             "subject" => "English",
                             "Teacher" => "Divya Sharma",
-                            
+
                         ),
                         array("Lunch-Time" => "1.30pm-2.15pm"),
                         array(
                             "Time" => "2.15pm-3pm",
                             "subject" => "Mechanics",
                             "Teacher" => "Rajat Sen",
-                          
+
                         ),
 
 
@@ -434,7 +434,7 @@
 
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "1",  "Title" => "All Subject", "Students" => "55", "Table" => "30",
+                            "RoomNo." => "1",  "Title" => "", "Students" => "55", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -780,32 +780,32 @@
                             "Time" => "9am-10am",
                             "Subject" => "Physics",
                             "Teacher" => "Jagdish Thakur",
-                            
+
                         ),
                         array(
                             "Time" => "10am-11am",
                             "Subject" => "Chemistry",
                             "Teacher" => "Nirmla Thakur",
-                           
+
                         ),
                         array(
                             "Time" => "11am-12pm",
                             "Subject" => "English",
                             "Teacher" => "Pinkee Sharma",
-                            
+
                         ),
                         array(
                             "Time" => "12pm-1pm",
                             "Subject" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
-                           
+
                         ),
                         array("Lunch-Time" => "1pm-2pm"),
                         array(
                             "Time" => "2pm-3pm",
                             "Subject" => "Computer science",
                             "Teacher" => "Maloo Sharma",
-                          
+
                         ),
 
 
@@ -816,7 +816,7 @@
                 "Class12" => array(
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "5",  "Title" => "All Subject", "Students" => "50", "Table" => "30",
+                            "RoomNo." => "5",  "Title" => "", "Students" => "50", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -1153,7 +1153,7 @@
                             "Time" => "9am-10am",
                             "Subject" => "English",
                             "Teacher" => "Pinkee Sharma",
-                           
+
                         ),
 
 
@@ -1162,27 +1162,27 @@
                             "Time" => "10am-11am",
                             "Subject" => "Physics",
                             "Teacher" => "Jagdish Thakur",
-                           
+
                         ),
                         array(
                             "Time" => "11am-12pm",
                             "Subject" => "Chemistry",
                             "Teacher" => "Nirmla Thakur",
-                           
+
                         ),
 
                         array(
                             "Time" => "12pm-1pm",
                             "Subject" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
-                           
+
                         ),
                         array("Lunch-Time" => "1pm-2pm"),
                         array(
                             "Time" => "2pm-3pm",
                             "Subject" => "Computer Science",
                             "Teacher" => "Maloo Sharma",
-                           
+
                         ),
 
 
@@ -1467,6 +1467,5 @@
     );
     echo "<pre>";
     print_r($arrays);
-
     echo "</pre>";
     ?>
