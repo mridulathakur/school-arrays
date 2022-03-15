@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
     <?php
     $arrays = array(
 
@@ -8,7 +19,7 @@
                 "10th" => array(
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "9",  "Title" => "", "Students" => "39", "Table" => "30",
+                            "RoomNo." => "9",  "Title" => "Theory Classes", "Students" => "39", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -47,9 +58,7 @@
                             "Teacher" => "Maloo Sharma",
                             "Time" => "12pm-12.45pm"
                         ),
-                        array(
-                            "Lunch-Time" => "12.45pm-1.30pm"
-                        ),
+
                         array(
                             "Name" => "English",
                             "Teacher" => "Pinkee Sharma",
@@ -284,14 +293,14 @@
                     ),
                     "Laboratory" => array(
                         array(
-                            "Subject" => "Science",
+                            "Subject" => "Science Lab.",
                             "Day" => "Monday",
                             "Time" => "9am-9.45am",
                             "Teacher" => "Anshika Thakur"
 
                         ),
                         array(
-                            "Subject" => "Computer Science",
+                            "Subject" => "Computer Science Lab.",
                             "Day" => "Friday",
                             "Time" => "12pm-12.45pm",
                             "Teacher" => "Maloo Sharma"
@@ -371,7 +380,7 @@
                             ),
                         ),
                     ),
-                    "class Moniter" => array(
+                    "Class Moniter" => array(
                         "Name" => "Rajat Thakur",
                     ),
                     "Time" => array(
@@ -434,7 +443,7 @@
 
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "1",  "Title" => "", "Students" => "55", "Table" => "30",
+                            "RoomNo." => "1",  "Title" => "Theory Classes", "Students" => "55", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -463,23 +472,18 @@
                             "Teacher" => "Maloo Sharma",
                             "Time" => "10am-11am",
                         ),
+                        array(
+                            "Name" => "Chemistry",
+                            "Teacher" => "Nirmla Thakur",
+                            "Time" => "11am-12pm"
+                        ),
 
                         array(
                             "Name" => "English",
                             "Teacher" => "Pinkee Sharma",
-                            "Time" => "11am-12pm"
-                        ),
-                        array(
-                            "Name" => "Chemistry",
-                            "Teacher" => "Nirmla Thakur",
                             "Time" => "12pm-1pm"
                         ),
 
-
-
-                        array(
-                            "Lunch-Time" => "1pm-2pm"
-                        ),
                         array(
                             "Name" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
@@ -701,9 +705,19 @@
                             ),
                         ),
                         array(
+                            "Name" => "Maloo Sharma",
+                            "Subjects" => "Computer Science",
+                            "Time" => "10am-11am",
+                            "Qualification" => array(
+                                "Degree" => "BCA(IT)",
+                                "Master's Degree" => "MCA"
+                            ),
+
+                        ),
+                        array(
                             "Name" => "Nirmla Thakur",
                             "Subjects" => "Chemistry",
-                            "Time" => "10am-11am",
+                            "Time" => "11am-12pm",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
                                 "Master's Degree" => "Msc"
@@ -714,7 +728,7 @@
                         array(
                             "Name" => "Pinkee Sharma",
                             "Subjects" => "English",
-                            "Time" => "11am-12pm",
+                            "Time" => "12pm-1pm",
                             "Qualification" => array(
                                 "Degree" => "BCA",
                                 "Master's Degree" => "MCA"
@@ -726,23 +740,14 @@
                         array(
                             "Name" => "Hemant Thakur",
                             "Subjects" => "Mathematics",
-                            "Time" => "12pm-1pm",
+                            "Time" => "2pm-3pm",
                             "Qualification" => array(
                                 "Degree" => "Bsc(Mathematics)",
                                 "Master's Degree" => "Msc(Mathematics)"
                             ),
                         ),
 
-                        array(
-                            "Name" => "Maloo Sharma",
-                            "Subjects" => "Computer Science",
-                            "Time" => "2pm-3pm",
-                            "Qualification" => array(
-                                "Degree" => "BCA(IT)",
-                                "Master's Degree" => "MCA"
-                            ),
 
-                        ),
 
 
                     ),
@@ -770,7 +775,7 @@
                         ),
 
                     ),
-                    "class Moniter" => array(
+                    "Class Moniter" => array(
                         "Name" => "Ritik Thakur",
                     ),
                     "Time" => array(
@@ -784,39 +789,39 @@
                         ),
                         array(
                             "Time" => "10am-11am",
+                            "Subject" => "Computer science",
+                            "Teacher" => "Maloo Sharma",
+
+                        ),
+                        array(
+                            "Time" => "11am-12pm",
                             "Subject" => "Chemistry",
                             "Teacher" => "Nirmla Thakur",
 
                         ),
                         array(
-                            "Time" => "11am-12pm",
+                            "Time" => "12pm-1pm",
                             "Subject" => "English",
                             "Teacher" => "Pinkee Sharma",
 
                         ),
                         array(
-                            "Time" => "12pm-1pm",
+                            "Time" => "2pm-3pm",
                             "Subject" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
 
                         ),
-                        array("Lunch-Time" => "1pm-2pm"),
-                        array(
-                            "Time" => "2pm-3pm",
-                            "Subject" => "Computer science",
-                            "Teacher" => "Maloo Sharma",
 
-                        ),
 
 
 
                     ),
                 ),
 
-                "Class12" => array(
+                "12th" => array(
                     "Rooms" => array(
                         array(
-                            "RoomNo." => "5",  "Title" => "", "Students" => "50", "Table" => "30",
+                            "RoomNo." => "5",  "Title" => "Theory Classes", "Students" => "50", "Table" => "30",
                             "Door" => "2",  "Lecture Stand" => "1", "Window" => "2"
                         ),
                         array(
@@ -844,18 +849,14 @@
                             "Time" => "10am-11am"
                         ),
                         array(
-                            "Name" => "Chemistry",
-                            "Teacher" => "Nirmla Thakur",
-                            "Time" => "11am-12pm",
-                        ),
-
-                        array(
                             "Name" => "Mathematics",
                             "Teacher" => "Hemant Thakur",
-                            "Time" => "12pm-1pm"
+                            "Time" => "11am-12pm"
                         ),
                         array(
-                            "Lunch-Time" => "1pm-2pm"
+                            "Name" => "Chemistry",
+                            "Teacher" => "Nirmla Thakur",
+                            "Time" => "12pm-1pm",
                         ),
 
                         array(
@@ -1086,25 +1087,24 @@
                             ),
                         ),
                         array(
+                            "Name" => "Hemant Thakur",
+                            "Subjects" => "Mathematics",
+                            "Time" => "11am-12pm",
+                            "Qualification" => array(
+                                "Degree" => "Bsc(Mathematics)",
+                                "Master's Degree" => "Msc(Mathematics)"
+                            ),
+                        ),
+                        array(
                             "Name" => "Nirmla Thakur",
                             "Subjects" => "Chemistry",
-                            "Time" => "11am-12pm",
+                            "Time" => "12pm-1pm",
                             "Qualification" => array(
                                 "Degree" => "Msc(Chemistry)",
                                 "Master's Degree" => "Msc"
 
                             ),
 
-                        ),
-
-                        array(
-                            "Name" => "Hemant Thakur",
-                            "Subjects" => "Mathematics",
-                            "Time" => "12pm-1pm",
-                            "Qualification" => array(
-                                "Degree" => "Bsc(Mathematics)",
-                                "Master's Degree" => "Msc(Mathematics)"
-                            ),
                         ),
 
                         array(
@@ -1139,13 +1139,13 @@
                         array(
                             "Subject" => "Chemistry",
                             "Day" => "Wednesday",
-                            "Time" => "11am-12pm",
+                            "Time" => "12pm-1pm",
                             "Teacher" => "Nirmla Thakur"
 
                         ),
 
                     ),
-                    "class Moniter" => array(
+                    "Class Moniter" => array(
                         "Name" => "Sania Thakur",
                     ),
                     "Time" => array(
@@ -1166,18 +1166,19 @@
                         ),
                         array(
                             "Time" => "11am-12pm",
+                            "Subject" => "Mathematics",
+                            "Teacher" => "Hemant Thakur",
+
+                        ),
+                        array(
+                            "Time" => "12pm-1pm",
                             "Subject" => "Chemistry",
                             "Teacher" => "Nirmla Thakur",
 
                         ),
 
-                        array(
-                            "Time" => "12pm-1pm",
-                            "Subject" => "Mathematics",
-                            "Teacher" => "Hemant Thakur",
 
-                        ),
-                        array("Lunch-Time" => "1pm-2pm"),
+
                         array(
                             "Time" => "2pm-3pm",
                             "Subject" => "Computer Science",
@@ -1465,7 +1466,590 @@
 
         ),
     );
-    echo "<pre>";
-    print_r($arrays);
-    echo "</pre>";
     ?>
+    <!-- 10th start -->
+    <h1>10th CLass Student Details</h1>
+      <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Class</th>
+                <th scope="col">Room</th>
+                <th scope="col">Student-Name</th>
+                <th scope="col">Roll No.</th>
+                <th scope="col">Subjects</th>
+                <th scope="col">Time</th>
+                <th scope="col">Marks</th>
+                <th scope="col">Title</th>
+                <th scope="col">Teachers</th>
+                <th scope="col">Class-incharge</th>
+                <th scope="col">Students</th>
+                <th scope="col">Lunch-time</th>
+                <th scope="col">Class Moniter</th>
+                <th scope="col">Laboratory</th>
+                <th scope="col">Lab Day</th>
+                <th scope="col">Lab Room No.</th>
+           
+               
+            
+
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][0]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["Science"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
+               </tr>
+
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][1]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["History"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+               </tr>
+
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][2]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["hindi"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+               </tr>
+
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["Mathematics"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+               </tr>
+
+               
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][4]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["Computer Science"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
+               </tr>
+
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][5]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][5]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["English"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][5]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+               </tr>
+
+               <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Roll No."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][6]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][6]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks"]["Mechanics"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][6]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+               </tr>
+
+               <tr>
+               <th scope="row">Marks Obtained</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Marks-Obtained"]; ?></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+
+               <tr>
+               <th scope="row">Total Marks</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Total-Marks"]; ?></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+
+               <tr>
+               <th scope="row">Percentage</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Percentage"]; ?></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+               
+               <tr>
+               <th scope="row">Remarks</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Remarks"]; ?></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+
+               <tr>
+               <th scope="row">Division</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td><?php echo $arrays["School"]["Classes"]["10th"]["Students"][0]["Division"]; ?></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+
+
+        </tbody>
+    </table>
+    <!--end-->
+
+
+
+
+
+
+
+<!--10th 11th 12th -->
+<h1> 10th 11th 12th Teachers Subjects Laboratory Details</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Classes</th>
+                <th scope="col">Rooms</th>
+                <th scope="col">Subjects</th>
+                <th scope="col">Students</th>
+                <th scope="col">Lunch-time</th>
+                <th scope="col">Class-incharge</th>
+                <th scope="col">Laboratory</th>
+                <th scope="col">Lab Day</th>
+                <th scope="col">Lab Room No.</th>
+                <th scope="col">Teachers</th>
+                <th scope="col">Class Moniter</th>
+                <th scope="col">Time</th>
+                <th scope="col">Title</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <!--11th class start -->
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][0]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][1]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][2]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][4]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][5]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][5]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][6]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][6]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][6]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+            <!--10th class end -->
+
+
+            <!--11th class start -->
+            <tr>
+                <th scope="row">11th</th>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][0]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][0]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][2]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Teachers"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][0]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">11th</th>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][1]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][1]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][1]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Teachers"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][1]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">11th</th>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][2]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Laboratory"][2]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][3]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Teachers"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][2]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">11th</th>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Teachers"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][3]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">11th</th>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Teachers"][4]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Subjects"][4]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["11th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <!--11th class end -->
+
+
+
+            <!--12th class start -->
+            <tr>
+                <th scope="row">12th</th>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Teachers"][0]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][0]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">12th</th>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][1]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][0]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][0]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][2]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Teachers"][1]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][1]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">12th</th>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][2]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class-incharge"]["Name"]; ?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Teachers"][2]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][2]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+            <tr>
+                <th scope="row">12th</th>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][3]["Students"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Lunch-time"]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class-incharge"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][2]["Subject"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][2]["Day"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][3]["RoomNo."]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Teachers"][3]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Class Moniter"]["Name"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][3]["Time"]; ?></td>
+                <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+            <th scope="row">12th</th>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["RoomNo."]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][4]["Name"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Students"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Lunch-time"]["Time"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Class-incharge"]["Name"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][1]["Subject"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Laboratory"][1]["Day"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][1]["RoomNo."]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Teachers"][4]["Name"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Class Moniter"]["Name"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Subjects"][4]["Time"]; ?></td>
+            <td><?php echo $arrays["School"]["Classes"]["12th"]["Rooms"][0]["Title"]; ?></td>
+            </tr>
+
+
+
+            <!--12th class end -->
+
+        </tbody>
+
+
+
+
+
+    </table>
+
+<!--end-->
+</body>
+
+</html>
