@@ -62,7 +62,7 @@
                         array(
                             "Name" => "English",
                             "Teacher"=> "Divya Sharma",
-                            "Time" => "12.45pm-1.30l ,pm"
+                            "Time" => "12.45pm-1.30pm"
                         ),
                         array(
                             "Name" => "Mechanics",
@@ -1467,9 +1467,9 @@
         ),
     );
     ?>
-<<<<<<< HEAD
-    <!-- 10th start -->
-    <h1>10th CLass Student Details</h1>
+
+     <!-- 10th start -->
+     <h1>10th CLass Student Details</h1>
       <table class="table">
         <thead>
             <tr>
@@ -1738,9 +1738,7 @@
 
 <!--10th 11th 12th -->
 <h1> 10th 11th 12th Teachers Subjects Laboratory Details</h1>
-=======
 
->>>>>>> c39faca84e7862c629e34480320627c0ed99aace
     <table class="table">
         <thead>
             <tr>
@@ -1762,11 +1760,7 @@
         </thead>
         <tbody>
 
-<<<<<<< HEAD
-            <!--11th class start -->
-=======
             <!--10th class start -->
->>>>>>> c39faca84e7862c629e34480320627c0ed99aace
             <tr>
                 <th scope="row">10th</th>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["RoomNo."]; ?></td>
@@ -1776,11 +1770,8 @@
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Subject"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Day"]; ?></td>
-<<<<<<< HEAD
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
-=======
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
->>>>>>> c39faca84e7862c629e34480320627c0ed99aace
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][0]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][0]["Time"]; ?></td>
@@ -1844,11 +1835,8 @@
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Subject"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Day"]; ?></td>
-<<<<<<< HEAD
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
-=======
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
->>>>>>> c39faca84e7862c629e34480320627c0ed99aace
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][4]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][4]["Time"]; ?></td>
@@ -1867,11 +1855,8 @@
                 <td></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][5]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
-<<<<<<< HEAD
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Time"]; ?></td>
-=======
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][5]["Time"]; ?></td>
->>>>>>> c39faca84e7862c629e34480320627c0ed99aace
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
             </tr>
 
@@ -2068,9 +2053,3 @@
 
 
     </table>
-
-<!--end-->
-
-</body>
-
-</html>
