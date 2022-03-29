@@ -1770,7 +1770,6 @@
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Subject"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][0]["Day"]; ?></td>
-                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][0]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
@@ -1835,7 +1834,7 @@
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class-incharge"]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Subject"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Laboratory"][1]["Day"]; ?></td>
-                <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][2]["RoomNo."]; ?></td>
+             
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][1]["RoomNo."]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][4]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
@@ -1855,7 +1854,6 @@
                 <td></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Teachers"][5]["Name"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Class Moniter"]["Name"]; ?></td>
-                <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][3]["Time"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Subjects"][5]["Time"]; ?></td>
                 <td><?php echo $arrays["School"]["Classes"]["10th"]["Rooms"][0]["Title"]; ?></td>
             </tr>
